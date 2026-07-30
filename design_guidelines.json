@@ -1,0 +1,143 @@
+{
+  "identity": {
+    "name": "E1",
+    "role": "The Anti-AI Designer",
+    "mission": "Create a realistic, immersive CyberRange AI platform that breaks generic SaaS tropes.",
+    "tone": "Serious, High-Tech, 'Hacker' aesthetic, Educational but immersive."
+  },
+  "typography": {
+    "primary_font": "Rajdhani",
+    "secondary_font": "Space Grotesk",
+    "mono_font": "JetBrains Mono",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Rajdhani:wght@500;600;700&family=Space+Grotesk:wght@300;400;500;600&display=swap",
+    "usage": {
+      "headings": "font-rajdhani font-bold tracking-wide uppercase",
+      "body": "font-space-grotesk tracking-normal",
+      "code": "font-mono text-sm tracking-tight"
+    }
+  },
+  "colors": {
+    "palette": {
+      "background": "#050505",
+      "foreground": "#E0E0E0",
+      "primary": "#00F0FF",
+      "primary_foreground": "#000000",
+      "secondary": "#BD00FF",
+      "secondary_foreground": "#FFFFFF",
+      "accent": "#00FF41",
+      "accent_foreground": "#000000",
+      "destructive": "#FF003C",
+      "destructive_foreground": "#FFFFFF",
+      "muted": "#1A1A1D",
+      "muted_foreground": "#888888",
+      "border": "#333333",
+      "input": "#1A1A1D",
+      "ring": "#00F0FF"
+    },
+    "gradients": {
+      "cyber_glow": "bg-gradient-to-r from-cyan-500/20 to-purple-500/20",
+      "terminal_scan": "bg-[linear-gradient(180deg,transparent_0%,rgba(0,255,65,0.1)_50%,transparent_100%)]"
+    },
+    "theme": "dark"
+  },
+  "layout": {
+    "grid_system": "Bento Grid (Mode B)",
+    "spacing": {
+      "container_padding": "p-6 md:p-8 lg:p-12",
+      "gap": "gap-4 md:gap-6"
+    },
+    "containers": {
+      "dashboard_card": "bg-black/40 backdrop-blur-md border border-white/10 rounded-none relative overflow-hidden",
+      "terminal_window": "bg-[#0C0C0C] border border-white/20 font-mono rounded-sm shadow-2xl"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 rounded-sm font-rajdhani font-bold uppercase tracking-widest transition-all hover:shadow-[0_0_20px_rgba(0,240,255,0.5)] clip-path-polygon-[0_0,100%_0,100%_70%,90%_100%,0_100%]",
+      "secondary": "bg-transparent border border-primary text-primary hover:bg-primary/10 rounded-sm font-rajdhani uppercase tracking-widest"
+    },
+    "inputs": {
+      "default": "bg-black/50 border-white/20 focus:border-primary focus:ring-1 focus:ring-primary rounded-none font-mono text-sm placeholder:text-white/30"
+    },
+    "cards": {
+      "style": "glassmorphism",
+      "border": "border-l-2 border-primary/50"
+    },
+    "visual_enhancers": {
+      "scanlines": "pointer-events-none fixed inset-0 z-50 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20",
+      "glitch_effect": "animate-pulse text-destructive"
+    }
+  },
+  "images": {
+    "hero_background": {
+      "url": "https://images.unsplash.com/photo-1762279388956-1c098163a2a8",
+      "alt": "Abstract digital landscape",
+      "usage": "Hero section background with heavy overlay"
+    },
+    "phishing_sim": {
+      "url": "https://images.unsplash.com/photo-1613490900233-141c5560d75d",
+      "alt": "Hacker typing code",
+      "usage": "Phishing simulator intro or side panel"
+    },
+    "ransomware_sim": {
+      "url": "https://images.unsplash.com/photo-1655036387197-566206c80980",
+      "alt": "Hard drives and data",
+      "usage": "Ransomware simulator context"
+    },
+    "dashboard_context": {
+      "url": "https://images.unsplash.com/photo-1662638600476-d563fffbb072",
+      "alt": "SOC Operations Center",
+      "usage": "Dashboard empty state or background"
+    }
+  },
+  "motion": {
+    "library": "framer-motion",
+    "animations": {
+      "page_transition": {
+        "initial": { "opacity": 0, "y": 20 },
+        "animate": { "opacity": 1, "y": 0 },
+        "exit": { "opacity": 0, "y": -20 },
+        "transition": { "duration": 0.3 }
+      },
+      "glitch_text": {
+        "animate": {
+          "x": [0, -2, 2, -1, 1, 0],
+          "opacity": [1, 0.8, 1, 0.9, 1]
+        },
+        "transition": { "duration": 0.2, "repeat": "Infinity", "repeatDelay": 5 }
+      }
+    }
+  },
+  "accessibility": {
+    "contrast_check": "Ensure neon text on black background meets 4.5:1 ratio. Use lighter shades of neon for text.",
+    "reduced_motion": "Disable glitch effects and scanlines if prefers-reduced-motion is true."
+  },
+  "instructions_to_main_agent": [
+    "Install 'framer-motion' and 'lucide-react' if not present.",
+    "Update 'tailwind.config.js' with the custom colors and fonts defined above.",
+    "Add the Google Fonts link to 'public/index.html' or import in CSS.",
+    "Create a 'Layout' component that includes the scanline overlay and navigation.",
+    "Use 'sonner' for all notifications (simulated attacks, success messages).",
+    "Implement the 'Bento Grid' for the main dashboard.",
+    "Ensure all inputs and interactive elements have 'data-testid' attributes.",
+    "For the Phishing Simulator, use a split-view: Left side for configuration, Right side for the 'Email Preview'.",
+    "For the Ransomware Simulator, use a timeline visualization for the attack stages."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "You tend to converge toward generic, 'on distribution' outputs. Avoid this.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "You MUST NOT apply universal transition. Eg: 'transition: all'.",
+    "You MUST NOT center align the app container.",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations.",
+    "NEVER use AI assistant Emoji characters like 🤖🧠 etc.",
+    "Every interaction needs micro-animations.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Components MUST use named exports.",
+    "Pages MUST use default exports.",
+    "Use 'sonner' for toasts."
+  ]
+}
