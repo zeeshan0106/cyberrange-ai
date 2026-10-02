@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Shield, Activity, Bug, Zap, GraduationCap, ArrowRight, Users } from "lucide-react";
+import { Shield, Activity, Bug, Zap, GraduationCap, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Home = () => {
@@ -32,13 +32,6 @@ export const Home = () => {
       description: "Interactive Q&A with scoring and instant feedback",
       path: "/training",
       color: "secondary"
-    },
-    {
-      icon: Users,
-      title: "Multiplayer Arena",
-      description: "Red Team vs Blue Team: Launch and Defend against attacks in real-time",
-      path: "/multiplayer",
-      color: "primary"
     },
   ];
   

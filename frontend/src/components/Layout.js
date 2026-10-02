@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { Shield, Activity, Bug, Zap, GraduationCap, LayoutDashboard, Info, Users } from "lucide-react";
+import { Shield, Activity, Bug, Zap, GraduationCap, LayoutDashboard, Info } from "lucide-react";
 
 export const Layout = ({ children }) => {
   const location = useLocation();
@@ -10,10 +10,10 @@ export const Layout = ({ children }) => {
     { path: "/ransomware", label: "Ransomware", icon: Bug },
     { path: "/attack-scenario", label: "Attack Scenario", icon: Zap },
     { path: "/training", label: "Training", icon: GraduationCap },
-    { path: "/multiplayer", label: "Multiplayer", icon: Users },
     { path: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
     { path: "/about", label: "About", icon: Info },
   ];
+
   
   return (
     <div className="min-h-screen bg-background">
@@ -57,13 +57,6 @@ export const Layout = ({ children }) => {
       <main className="max-w-7xl mx-auto px-6 py-8">
         {children}
       </main>
-      
-      {/* Footer Warning */}
-      <div className="fixed bottom-0 left-0 right-0 bg-destructive/20 border-t border-destructive/50 backdrop-blur-sm py-2 px-6 z-30">
-        <p className="text-center text-xs font-mono text-destructive-foreground">
-          ⚠️ SIMULATION ONLY - All content is for educational cybersecurity training purposes
-        </p>
-      </div>
     </div>
   );
 };

@@ -20,12 +20,12 @@ export const About = () => {
         {/* Introduction Section */}
         <div className="bg-black/40 backdrop-blur-md border border-white/10 rounded-sm p-8 mb-8">
           <h2 className="text-2xl font-rajdhani font-bold uppercase mb-4 text-foreground">
-            The Next Generation of Cyber Training
+            Practise detection and response before a real incident.
           </h2>
           <p className="text-lg text-foreground/80 leading-relaxed font-mono">
-            CyberRange AI is an advanced simulation platform designed to bridge the gap between theoretical knowledge and practical cybersecurity skills. 
-            Unlike traditional training methods that rely on static content, our platform generates dynamic, context-aware attack scenarios tailored to specific industries and roles.
-            Whether you are a student, an IT professional, or a security analyst, CyberRange AI provides a safe, controlled environment to understand and defend against modern cyber threats.
+            CyberRange AI is a cybersecurity training platform that generates phishing, ransomware, and multi-stage attack scenarios mapped to MITRE ATT&amp;CK, with interactive quizzes and a progress dashboard.
+            Scenarios are produced by a large language model, with a rule-based fallback and structured validation of the output.
+            All content is simulated and intended for educational use only.
           </p>
         </div>
 
@@ -34,25 +34,25 @@ export const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           <Card className="bg-black/40 border-white/10 p-6 hover:border-primary/50 transition-all">
             <Target className="w-8 h-8 text-destructive mb-4" />
-            <h4 className="text-lg font-rajdhani font-bold uppercase mb-2">Dynamic Simulations</h4>
+            <h4 className="text-lg font-rajdhani font-bold uppercase mb-2">Scenario Generation</h4>
             <p className="text-sm text-muted-foreground font-mono">
-              Generates unique Phishing, Ransomware, and APT scenarios on-the-fly using advanced logic engines and AI.
+              Generates phishing emails, ransomware infection chains, and multi-stage attack scenarios on demand using a large language model with a rule-based fallback.
             </p>
           </Card>
           
           <Card className="bg-black/40 border-white/10 p-6 hover:border-primary/50 transition-all">
             <Users className="w-8 h-8 text-accent mb-4" />
-            <h4 className="text-lg font-rajdhani font-bold uppercase mb-2">Role-Based Training</h4>
+            <h4 className="text-lg font-rajdhani font-bold uppercase mb-2">MITRE ATT&amp;CK Mapping</h4>
             <p className="text-sm text-muted-foreground font-mono">
-              Adapts content for different roles (HR, Finance, IT Admin) and industries (Healthcare, Finance, Education).
+              Techniques in Attack Scenario and Ransomware outputs are validated against the official MITRE ATT&amp;CK Enterprise dataset (858 techniques). Tactic and technique IDs are checked and corrected where needed.
             </p>
           </Card>
 
           <Card className="bg-black/40 border-white/10 p-6 hover:border-primary/50 transition-all">
             <Code className="w-8 h-8 text-secondary mb-4" />
-            <h4 className="text-lg font-rajdhani font-bold uppercase mb-2">MITRE ATT&CK Mapping</h4>
+            <h4 className="text-lg font-rajdhani font-bold uppercase mb-2">Detection &amp; Response Guidance</h4>
             <p className="text-sm text-muted-foreground font-mono">
-              All scenarios are mapped to real-world MITRE ATT&CK techniques (TTPs) for professional-grade learning.
+              Each scenario stage includes detection indicators, containment steps, and a structured incident-response plan mapped to the relevant ATT&amp;CK techniques.
             </p>
           </Card>
         </div>
@@ -68,16 +68,16 @@ export const About = () => {
               <h4 className="font-bold text-foreground mb-2 font-mono">Frontend</h4>
               <ul className="list-disc list-inside text-sm text-muted-foreground font-mono space-y-2">
                 <li>React 18 with Framer Motion for animations</li>
-                <li>Tailwind CSS for responsive Cyberpunk UI</li>
-                <li>Real-time dashboard visualization</li>
+                <li>Tailwind CSS for responsive UI</li>
+                <li>Recharts for dashboard analytics</li>
               </ul>
             </div>
             <div>
               <h4 className="font-bold text-foreground mb-2 font-mono">Backend</h4>
               <ul className="list-disc list-inside text-sm text-muted-foreground font-mono space-y-2">
-                <li>FastAPI (Python) for high-performance API</li>
-                <li>MongoDB Async (Motor) for scalable data storage</li>
-                <li>Context-aware generation engine</li>
+                <li>FastAPI (Python) for the REST API</li>
+                <li>MongoDB with Motor (async driver) for data storage</li>
+                <li>LiteLLM-based LLM integration with retry and fallback logic</li>
               </ul>
             </div>
           </div>
@@ -87,10 +87,13 @@ export const About = () => {
         <div className="text-center py-8 border-t border-white/10">
           <Lock className="w-12 h-12 text-primary mx-auto mb-4" />
           <h2 className="text-2xl font-rajdhani font-bold uppercase text-foreground mb-2">
-            "Train like you fight."
+            CyberRange AI
           </h2>
           <p className="text-muted-foreground font-mono max-w-2xl mx-auto">
-            Our mission is to democratize advanced cybersecurity training, making it accessible, engaging, and relevant for the defenders of tomorrow.
+            All content is simulated and for educational use only. Planned: user accounts and roles, SIEM-style log generation, pretrained phishing classifier, LMS integration.
+          </p>
+          <p className="text-xs text-muted-foreground/60 font-mono mt-4">
+            Educational use only. No real malware or live attack infrastructure is used.
           </p>
         </div>
       </motion.div>

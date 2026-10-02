@@ -1,0 +1,7098 @@
+{
+  "T1055.011": {
+    "technique_id": "T1055.011",
+    "technique_name": "Extra Window Memory Injection",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1053.005": {
+    "technique_id": "T1053.005",
+    "technique_name": "Scheduled Task",
+    "tactics": [
+      "Execution",
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1205.002": {
+    "technique_id": "T1205.002",
+    "technique_name": "Socket Filters",
+    "tactics": [
+      "Stealth",
+      "Persistence",
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1066": {
+    "technique_id": "T1066",
+    "technique_name": "Indicator Removal from Tools",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1560.001": {
+    "technique_id": "T1560.001",
+    "technique_name": "Archive via Utility",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1021.005": {
+    "technique_id": "T1021.005",
+    "technique_name": "VNC",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": true
+  },
+  "T1047": {
+    "technique_id": "T1047",
+    "technique_name": "Windows Management Instrumentation",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1687": {
+    "technique_id": "T1687",
+    "technique_name": "Exploitation for Defense Impairment",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": false
+  },
+  "T1156": {
+    "technique_id": "T1156",
+    "technique_name": "Malicious Shell Modification",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1113": {
+    "technique_id": "T1113",
+    "technique_name": "Screen Capture",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": false
+  },
+  "T1027.011": {
+    "technique_id": "T1027.011",
+    "technique_name": "Fileless Storage",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1067": {
+    "technique_id": "T1067",
+    "technique_name": "Bootkit",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1037": {
+    "technique_id": "T1037",
+    "technique_name": "Boot or Logon Initialization Scripts",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1557": {
+    "technique_id": "T1557",
+    "technique_name": "Adversary-in-the-Middle",
+    "tactics": [
+      "Credential Access",
+      "Collection"
+    ],
+    "is_subtechnique": false
+  },
+  "T1033": {
+    "technique_id": "T1033",
+    "technique_name": "System Owner/User Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1583": {
+    "technique_id": "T1583",
+    "technique_name": "Acquire Infrastructure",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": false
+  },
+  "T1218.011": {
+    "technique_id": "T1218.011",
+    "technique_name": "Rundll32",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1613": {
+    "technique_id": "T1613",
+    "technique_name": "Container and Resource Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1583.007": {
+    "technique_id": "T1583.007",
+    "technique_name": "Serverless",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1143": {
+    "technique_id": "T1143",
+    "technique_name": "Hidden Window",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1161": {
+    "technique_id": "T1161",
+    "technique_name": "LC_LOAD_DYLIB Addition",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1132.001": {
+    "technique_id": "T1132.001",
+    "technique_name": "Standard Encoding",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1027.009": {
+    "technique_id": "T1027.009",
+    "technique_name": "Embedded Payloads",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1150": {
+    "technique_id": "T1150",
+    "technique_name": "Plist Modification",
+    "tactics": [
+      "Stealth",
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1556.003": {
+    "technique_id": "T1556.003",
+    "technique_name": "Pluggable Authentication Modules",
+    "tactics": [
+      "Defense Impairment",
+      "Persistence",
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1578.004": {
+    "technique_id": "T1578.004",
+    "technique_name": "Revert Cloud Instance",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1148": {
+    "technique_id": "T1148",
+    "technique_name": "HISTCONTROL",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1592": {
+    "technique_id": "T1592",
+    "technique_name": "Gather Victim Host Information",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": false
+  },
+  "T1596.003": {
+    "technique_id": "T1596.003",
+    "technique_name": "Digital Certificates",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1056.001": {
+    "technique_id": "T1056.001",
+    "technique_name": "Keylogging",
+    "tactics": [
+      "Collection",
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1564.012": {
+    "technique_id": "T1564.012",
+    "technique_name": "File/Path Exclusions",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1222.002": {
+    "technique_id": "T1222.002",
+    "technique_name": "Linux and Mac Permissions",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1110.001": {
+    "technique_id": "T1110.001",
+    "technique_name": "Password Guessing",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1216.001": {
+    "technique_id": "T1216.001",
+    "technique_name": "PubPrn",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1597.002": {
+    "technique_id": "T1597.002",
+    "technique_name": "Purchase Technical Data",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1003": {
+    "technique_id": "T1003",
+    "technique_name": "OS Credential Dumping",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1129": {
+    "technique_id": "T1129",
+    "technique_name": "Shared Modules",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1602": {
+    "technique_id": "T1602",
+    "technique_name": "Data from Configuration Repository",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": false
+  },
+  "T1561.002": {
+    "technique_id": "T1561.002",
+    "technique_name": "Disk Structure Wipe",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1498.001": {
+    "technique_id": "T1498.001",
+    "technique_name": "Direct Network Flood",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1492": {
+    "technique_id": "T1492",
+    "technique_name": "Stored Data Manipulation",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1574.007": {
+    "technique_id": "T1574.007",
+    "technique_name": "Path Interception by PATH Environment Variable",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1213.002": {
+    "technique_id": "T1213.002",
+    "technique_name": "Sharepoint",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1006": {
+    "technique_id": "T1006",
+    "technique_name": "Direct Volume Access",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1044": {
+    "technique_id": "T1044",
+    "technique_name": "File System Permissions Weakness",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1588.007": {
+    "technique_id": "T1588.007",
+    "technique_name": "Artificial Intelligence",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1666": {
+    "technique_id": "T1666",
+    "technique_name": "Modify Cloud Resource Hierarchy",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": false
+  },
+  "T1564.008": {
+    "technique_id": "T1564.008",
+    "technique_name": "Email Hiding Rules",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1491.002": {
+    "technique_id": "T1491.002",
+    "technique_name": "External Defacement",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1027.013": {
+    "technique_id": "T1027.013",
+    "technique_name": "Encrypted/Encoded File",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1171": {
+    "technique_id": "T1171",
+    "technique_name": "LLMNR/NBT-NS Poisoning and Relay",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1590.005": {
+    "technique_id": "T1590.005",
+    "technique_name": "IP Addresses",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1499.001": {
+    "technique_id": "T1499.001",
+    "technique_name": "OS Exhaustion Flood",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1014": {
+    "technique_id": "T1014",
+    "technique_name": "Rootkit",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1546.013": {
+    "technique_id": "T1546.013",
+    "technique_name": "PowerShell Profile",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1059.007": {
+    "technique_id": "T1059.007",
+    "technique_name": "JavaScript",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1685.003": {
+    "technique_id": "T1685.003",
+    "technique_name": "Modify or Spoof Tool UI",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1590.002": {
+    "technique_id": "T1590.002",
+    "technique_name": "DNS",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1501": {
+    "technique_id": "T1501",
+    "technique_name": "Systemd Service",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1485.001": {
+    "technique_id": "T1485.001",
+    "technique_name": "Lifecycle-Triggered Deletion",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1514": {
+    "technique_id": "T1514",
+    "technique_name": "Elevated Execution with Prompt",
+    "tactics": [
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1123": {
+    "technique_id": "T1123",
+    "technique_name": "Audio Capture",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": false
+  },
+  "T1543": {
+    "technique_id": "T1543",
+    "technique_name": "Create or Modify System Process",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1133": {
+    "technique_id": "T1133",
+    "technique_name": "External Remote Services",
+    "tactics": [
+      "Persistence",
+      "Initial Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1109": {
+    "technique_id": "T1109",
+    "technique_name": "Component Firmware",
+    "tactics": [
+      "Stealth",
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1546.006": {
+    "technique_id": "T1546.006",
+    "technique_name": "LC_LOAD_DYLIB Addition",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1539": {
+    "technique_id": "T1539",
+    "technique_name": "Steal Web Session Cookie",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1053.007": {
+    "technique_id": "T1053.007",
+    "technique_name": "Container Orchestration Job",
+    "tactics": [
+      "Execution",
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1568.002": {
+    "technique_id": "T1568.002",
+    "technique_name": "Domain Generation Algorithms",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1036.007": {
+    "technique_id": "T1036.007",
+    "technique_name": "Double File Extension",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1548.002": {
+    "technique_id": "T1548.002",
+    "technique_name": "Bypass User Account Control",
+    "tactics": [
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1099": {
+    "technique_id": "T1099",
+    "technique_name": "Timestomp",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1496.003": {
+    "technique_id": "T1496.003",
+    "technique_name": "SMS Pumping",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1016.001": {
+    "technique_id": "T1016.001",
+    "technique_name": "Internet Connection Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": true
+  },
+  "T1548.003": {
+    "technique_id": "T1548.003",
+    "technique_name": "Sudo and Sudo Caching",
+    "tactics": [
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1685.001": {
+    "technique_id": "T1685.001",
+    "technique_name": "Disable or Modify Windows Event Log",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1682": {
+    "technique_id": "T1682",
+    "technique_name": "Query Public AI Services",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": false
+  },
+  "T1560.003": {
+    "technique_id": "T1560.003",
+    "technique_name": "Archive via Custom Method",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1578": {
+    "technique_id": "T1578",
+    "technique_name": "Modify Cloud Compute Infrastructure",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": false
+  },
+  "T1584.008": {
+    "technique_id": "T1584.008",
+    "technique_name": "Network Devices",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1583.008": {
+    "technique_id": "T1583.008",
+    "technique_name": "Malvertising",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1069": {
+    "technique_id": "T1069",
+    "technique_name": "Permission Groups Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1114": {
+    "technique_id": "T1114",
+    "technique_name": "Email Collection",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": false
+  },
+  "T1003.002": {
+    "technique_id": "T1003.002",
+    "technique_name": "Security Account Manager",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1596.002": {
+    "technique_id": "T1596.002",
+    "technique_name": "WHOIS",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1542.001": {
+    "technique_id": "T1542.001",
+    "technique_name": "System Firmware",
+    "tactics": [
+      "Stealth",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1594": {
+    "technique_id": "T1594",
+    "technique_name": "Search Victim-Owned Websites",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": false
+  },
+  "T1069.003": {
+    "technique_id": "T1069.003",
+    "technique_name": "Cloud Groups",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": true
+  },
+  "T1574.011": {
+    "technique_id": "T1574.011",
+    "technique_name": "Services Registry Permissions Weakness",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1596.001": {
+    "technique_id": "T1596.001",
+    "technique_name": "DNS/Passive DNS",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1499.003": {
+    "technique_id": "T1499.003",
+    "technique_name": "Application Exhaustion Flood",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1163": {
+    "technique_id": "T1163",
+    "technique_name": "Rc.common",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1195.001": {
+    "technique_id": "T1195.001",
+    "technique_name": "Compromise Software Dependencies and Development Tools",
+    "tactics": [
+      "Initial Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1588.004": {
+    "technique_id": "T1588.004",
+    "technique_name": "Digital Certificates",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1583.002": {
+    "technique_id": "T1583.002",
+    "technique_name": "DNS Server",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1561": {
+    "technique_id": "T1561",
+    "technique_name": "Disk Wipe",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1071.004": {
+    "technique_id": "T1071.004",
+    "technique_name": "DNS",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1552.005": {
+    "technique_id": "T1552.005",
+    "technique_name": "Cloud Instance Metadata API",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1555.002": {
+    "technique_id": "T1555.002",
+    "technique_name": "Securityd Memory",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1615": {
+    "technique_id": "T1615",
+    "technique_name": "Group Policy Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1542.003": {
+    "technique_id": "T1542.003",
+    "technique_name": "Bootkit",
+    "tactics": [
+      "Stealth",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1025": {
+    "technique_id": "T1025",
+    "technique_name": "Data from Removable Media",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": false
+  },
+  "T1116": {
+    "technique_id": "T1116",
+    "technique_name": "Code Signing",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1218.013": {
+    "technique_id": "T1218.013",
+    "technique_name": "Mavinject",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1522": {
+    "technique_id": "T1522",
+    "technique_name": "Cloud Instance Metadata API",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1093": {
+    "technique_id": "T1093",
+    "technique_name": "Process Hollowing",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1074.001": {
+    "technique_id": "T1074.001",
+    "technique_name": "Local Data Staging",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1036.005": {
+    "technique_id": "T1036.005",
+    "technique_name": "Match Legitimate Resource Name or Location",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1172": {
+    "technique_id": "T1172",
+    "technique_name": "Domain Fronting",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1587.003": {
+    "technique_id": "T1587.003",
+    "technique_name": "Digital Certificates",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1565.001": {
+    "technique_id": "T1565.001",
+    "technique_name": "Stored Data Manipulation",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1110.002": {
+    "technique_id": "T1110.002",
+    "technique_name": "Password Cracking",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1178": {
+    "technique_id": "T1178",
+    "technique_name": "SID-History Injection",
+    "tactics": [
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1114.001": {
+    "technique_id": "T1114.001",
+    "technique_name": "Local Email Collection",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1555.001": {
+    "technique_id": "T1555.001",
+    "technique_name": "Keychain",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1547": {
+    "technique_id": "T1547",
+    "technique_name": "Boot or Logon Autostart Execution",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1003.004": {
+    "technique_id": "T1003.004",
+    "technique_name": "LSA Secrets",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1013": {
+    "technique_id": "T1013",
+    "technique_name": "Port Monitors",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1600": {
+    "technique_id": "T1600",
+    "technique_name": "Weaken Encryption",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": false
+  },
+  "T1606.002": {
+    "technique_id": "T1606.002",
+    "technique_name": "SAML Tokens",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1192": {
+    "technique_id": "T1192",
+    "technique_name": "Spearphishing Link",
+    "tactics": [
+      "Initial Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1036.008": {
+    "technique_id": "T1036.008",
+    "technique_name": "Masquerade File Type",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1489": {
+    "technique_id": "T1489",
+    "technique_name": "Service Stop",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1587.001": {
+    "technique_id": "T1587.001",
+    "technique_name": "Malware",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1121": {
+    "technique_id": "T1121",
+    "technique_name": "Regsvcs/Regasm",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1652": {
+    "technique_id": "T1652",
+    "technique_name": "Device Driver Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1206": {
+    "technique_id": "T1206",
+    "technique_name": "Sudo Caching",
+    "tactics": [
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1087.002": {
+    "technique_id": "T1087.002",
+    "technique_name": "Domain Account",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": true
+  },
+  "T1547.014": {
+    "technique_id": "T1547.014",
+    "technique_name": "Active Setup",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1564": {
+    "technique_id": "T1564",
+    "technique_name": "Hide Artifacts",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1559.002": {
+    "technique_id": "T1559.002",
+    "technique_name": "Dynamic Data Exchange",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1204.002": {
+    "technique_id": "T1204.002",
+    "technique_name": "Malicious File",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1591.003": {
+    "technique_id": "T1591.003",
+    "technique_name": "Identify Business Tempo",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1685.004": {
+    "technique_id": "T1685.004",
+    "technique_name": "Disable or Modify Linux Audit System Log",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1063": {
+    "technique_id": "T1063",
+    "technique_name": "Security Software Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1071.005": {
+    "technique_id": "T1071.005",
+    "technique_name": "Publish/Subscribe Protocols",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1592.001": {
+    "technique_id": "T1592.001",
+    "technique_name": "Hardware",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1080": {
+    "technique_id": "T1080",
+    "technique_name": "Taint Shared Content",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1484.002": {
+    "technique_id": "T1484.002",
+    "technique_name": "Trust Modification",
+    "tactics": [
+      "Defense Impairment",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1213.006": {
+    "technique_id": "T1213.006",
+    "technique_name": "Databases",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1573.001": {
+    "technique_id": "T1573.001",
+    "technique_name": "Symmetric Cryptography",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1087.001": {
+    "technique_id": "T1087.001",
+    "technique_name": "Local Account",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": true
+  },
+  "T1167": {
+    "technique_id": "T1167",
+    "technique_name": "Securityd Memory",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1586.001": {
+    "technique_id": "T1586.001",
+    "technique_name": "Social Media Accounts",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1176.001": {
+    "technique_id": "T1176.001",
+    "technique_name": "Browser Extensions",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1527": {
+    "technique_id": "T1527",
+    "technique_name": "Application Access Token",
+    "tactics": [
+      "Stealth",
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1562.009": {
+    "technique_id": "T1562.009",
+    "technique_name": "Safe Mode Boot",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1180": {
+    "technique_id": "T1180",
+    "technique_name": "Screensaver",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1542.005": {
+    "technique_id": "T1542.005",
+    "technique_name": "TFTP Boot",
+    "tactics": [
+      "Stealth",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1686.003": {
+    "technique_id": "T1686.003",
+    "technique_name": "Windows Host Firewall",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1543.003": {
+    "technique_id": "T1543.003",
+    "technique_name": "Windows Service",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1568.001": {
+    "technique_id": "T1568.001",
+    "technique_name": "Fast Flux DNS",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1497.001": {
+    "technique_id": "T1497.001",
+    "technique_name": "System Checks",
+    "tactics": [
+      "Stealth",
+      "Discovery"
+    ],
+    "is_subtechnique": true
+  },
+  "T1053.003": {
+    "technique_id": "T1053.003",
+    "technique_name": "Cron",
+    "tactics": [
+      "Execution",
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1069.002": {
+    "technique_id": "T1069.002",
+    "technique_name": "Domain Groups",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": true
+  },
+  "T1588.006": {
+    "technique_id": "T1588.006",
+    "technique_name": "Vulnerabilities",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1566.002": {
+    "technique_id": "T1566.002",
+    "technique_name": "Spearphishing Link",
+    "tactics": [
+      "Initial Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1165": {
+    "technique_id": "T1165",
+    "technique_name": "Startup Items",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1070.002": {
+    "technique_id": "T1070.002",
+    "technique_name": "Clear Linux or Mac System Logs",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1499.004": {
+    "technique_id": "T1499.004",
+    "technique_name": "Application or System Exploitation",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1137": {
+    "technique_id": "T1137",
+    "technique_name": "Office Application Startup",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1218.004": {
+    "technique_id": "T1218.004",
+    "technique_name": "InstallUtil",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1598.003": {
+    "technique_id": "T1598.003",
+    "technique_name": "Spearphishing Link",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1021.004": {
+    "technique_id": "T1021.004",
+    "technique_name": "SSH",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": true
+  },
+  "T1098.003": {
+    "technique_id": "T1098.003",
+    "technique_name": "Additional Cloud Roles",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1547.012": {
+    "technique_id": "T1547.012",
+    "technique_name": "Print Processors",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1089": {
+    "technique_id": "T1089",
+    "technique_name": "Disabling Security Tools",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1487": {
+    "technique_id": "T1487",
+    "technique_name": "Disk Structure Wipe",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1566.001": {
+    "technique_id": "T1566.001",
+    "technique_name": "Spearphishing Attachment",
+    "tactics": [
+      "Initial Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1214": {
+    "technique_id": "T1214",
+    "technique_name": "Credentials in Registry",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1027.008": {
+    "technique_id": "T1027.008",
+    "technique_name": "Stripped Payloads",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1559.001": {
+    "technique_id": "T1559.001",
+    "technique_name": "Component Object Model",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1574.001": {
+    "technique_id": "T1574.001",
+    "technique_name": "DLL",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1119": {
+    "technique_id": "T1119",
+    "technique_name": "Automated Collection",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": false
+  },
+  "T1689": {
+    "technique_id": "T1689",
+    "technique_name": "Downgrade Attack",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": false
+  },
+  "T1115": {
+    "technique_id": "T1115",
+    "technique_name": "Clipboard Data",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": false
+  },
+  "T1003.007": {
+    "technique_id": "T1003.007",
+    "technique_name": "Proc Filesystem",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1583.005": {
+    "technique_id": "T1583.005",
+    "technique_name": "Botnet",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1555.005": {
+    "technique_id": "T1555.005",
+    "technique_name": "Password Managers",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1103": {
+    "technique_id": "T1103",
+    "technique_name": "AppInit DLLs",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1553.001": {
+    "technique_id": "T1553.001",
+    "technique_name": "Gatekeeper Bypass",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1675": {
+    "technique_id": "T1675",
+    "technique_name": "ESXi Administration Command",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1608.004": {
+    "technique_id": "T1608.004",
+    "technique_name": "Drive-by Target",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1007": {
+    "technique_id": "T1007",
+    "technique_name": "System Service Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1040": {
+    "technique_id": "T1040",
+    "technique_name": "Network Sniffing",
+    "tactics": [
+      "Credential Access",
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1017": {
+    "technique_id": "T1017",
+    "technique_name": "Application Deployment Software",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1553.002": {
+    "technique_id": "T1553.002",
+    "technique_name": "Code Signing",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1530": {
+    "technique_id": "T1530",
+    "technique_name": "Data from Cloud Storage",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": false
+  },
+  "T1565.003": {
+    "technique_id": "T1565.003",
+    "technique_name": "Runtime Data Manipulation",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1552.002": {
+    "technique_id": "T1552.002",
+    "technique_name": "Credentials in Registry",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1135": {
+    "technique_id": "T1135",
+    "technique_name": "Network Share Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1120": {
+    "technique_id": "T1120",
+    "technique_name": "Peripheral Device Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1036.009": {
+    "technique_id": "T1036.009",
+    "technique_name": "Break Process Trees",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1590.004": {
+    "technique_id": "T1590.004",
+    "technique_name": "Network Topology",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1587.002": {
+    "technique_id": "T1587.002",
+    "technique_name": "Code Signing Certificates",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1222.001": {
+    "technique_id": "T1222.001",
+    "technique_name": "Windows Permissions",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1137.006": {
+    "technique_id": "T1137.006",
+    "technique_name": "Add-ins",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1685.002": {
+    "technique_id": "T1685.002",
+    "technique_name": "Disable or Modify Cloud Log",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1505.002": {
+    "technique_id": "T1505.002",
+    "technique_name": "Transport Agent",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1082": {
+    "technique_id": "T1082",
+    "technique_name": "System Information Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1071": {
+    "technique_id": "T1071",
+    "technique_name": "Application Layer Protocol",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1574.014": {
+    "technique_id": "T1574.014",
+    "technique_name": "AppDomainManager",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1074.002": {
+    "technique_id": "T1074.002",
+    "technique_name": "Remote Data Staging",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1098.006": {
+    "technique_id": "T1098.006",
+    "technique_name": "Additional Container Cluster Roles",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1053": {
+    "technique_id": "T1053",
+    "technique_name": "Scheduled Task/Job",
+    "tactics": [
+      "Execution",
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1218.007": {
+    "technique_id": "T1218.007",
+    "technique_name": "Msiexec",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1162": {
+    "technique_id": "T1162",
+    "technique_name": "Login Item",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1590.003": {
+    "technique_id": "T1590.003",
+    "technique_name": "Network Trust Dependencies",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1498.002": {
+    "technique_id": "T1498.002",
+    "technique_name": "Reflection Amplification",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1556.002": {
+    "technique_id": "T1556.002",
+    "technique_name": "Password Filter DLL",
+    "tactics": [
+      "Defense Impairment",
+      "Persistence",
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1505.005": {
+    "technique_id": "T1505.005",
+    "technique_name": "Terminal Services DLL",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1059.002": {
+    "technique_id": "T1059.002",
+    "technique_name": "AppleScript",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1176": {
+    "technique_id": "T1176",
+    "technique_name": "Software Extensions",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1499.002": {
+    "technique_id": "T1499.002",
+    "technique_name": "Service Exhaustion Flood",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1195.003": {
+    "technique_id": "T1195.003",
+    "technique_name": "Compromise Hardware Supply Chain",
+    "tactics": [
+      "Initial Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1106": {
+    "technique_id": "T1106",
+    "technique_name": "Native API",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1558.005": {
+    "technique_id": "T1558.005",
+    "technique_name": "Ccache Files",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1070.007": {
+    "technique_id": "T1070.007",
+    "technique_name": "Clear Network Connection History and Configurations",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1558.004": {
+    "technique_id": "T1558.004",
+    "technique_name": "AS-REP Roasting",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1058": {
+    "technique_id": "T1058",
+    "technique_name": "Service Registry Permissions Weakness",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1584.003": {
+    "technique_id": "T1584.003",
+    "technique_name": "Virtual Private Server",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1059.010": {
+    "technique_id": "T1059.010",
+    "technique_name": "AutoHotKey & AutoIT",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1600.001": {
+    "technique_id": "T1600.001",
+    "technique_name": "Reduce Key Space",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1070.003": {
+    "technique_id": "T1070.003",
+    "technique_name": "Clear Command History",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1202": {
+    "technique_id": "T1202",
+    "technique_name": "Indirect Command Execution",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1024": {
+    "technique_id": "T1024",
+    "technique_name": "Custom Cryptographic Protocol",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1536": {
+    "technique_id": "T1536",
+    "technique_name": "Revert Cloud Instance",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1091": {
+    "technique_id": "T1091",
+    "technique_name": "Replication Through Removable Media",
+    "tactics": [
+      "Lateral Movement",
+      "Initial Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1005": {
+    "technique_id": "T1005",
+    "technique_name": "Data from Local System",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": false
+  },
+  "T1140": {
+    "technique_id": "T1140",
+    "technique_name": "Deobfuscate/Decode Files or Information",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1137.005": {
+    "technique_id": "T1137.005",
+    "technique_name": "Outlook Rules",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1562": {
+    "technique_id": "T1562",
+    "technique_name": "Impair Defenses",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1586.003": {
+    "technique_id": "T1586.003",
+    "technique_name": "Cloud Accounts",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1586.002": {
+    "technique_id": "T1586.002",
+    "technique_name": "Email Accounts",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1098.007": {
+    "technique_id": "T1098.007",
+    "technique_name": "Additional Local or Domain Groups",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1608.001": {
+    "technique_id": "T1608.001",
+    "technique_name": "Upload Malware",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1195": {
+    "technique_id": "T1195",
+    "technique_name": "Supply Chain Compromise",
+    "tactics": [
+      "Initial Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1190": {
+    "technique_id": "T1190",
+    "technique_name": "Exploit Public-Facing Application",
+    "tactics": [
+      "Initial Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1558": {
+    "technique_id": "T1558",
+    "technique_name": "Steal or Forge Kerberos Tickets",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1555": {
+    "technique_id": "T1555",
+    "technique_name": "Credentials from Password Stores",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1567": {
+    "technique_id": "T1567",
+    "technique_name": "Exfiltration Over Web Service",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": false
+  },
+  "T1219": {
+    "technique_id": "T1219",
+    "technique_name": "Remote Access Tools",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1583.001": {
+    "technique_id": "T1583.001",
+    "technique_name": "Domains",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1560.002": {
+    "technique_id": "T1560.002",
+    "technique_name": "Archive via Library",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1055.003": {
+    "technique_id": "T1055.003",
+    "technique_name": "Thread Execution Hijacking",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1684": {
+    "technique_id": "T1684",
+    "technique_name": "Social Engineering",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1079": {
+    "technique_id": "T1079",
+    "technique_name": "Multilayer Encryption",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1036": {
+    "technique_id": "T1036",
+    "technique_name": "Masquerading",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1546.011": {
+    "technique_id": "T1546.011",
+    "technique_name": "Application Shimming",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1552": {
+    "technique_id": "T1552",
+    "technique_name": "Unsecured Credentials",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1547.010": {
+    "technique_id": "T1547.010",
+    "technique_name": "Port Monitors",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1070.008": {
+    "technique_id": "T1070.008",
+    "technique_name": "Clear Mailbox Data",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1037.002": {
+    "technique_id": "T1037.002",
+    "technique_name": "Login Hook",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1659": {
+    "technique_id": "T1659",
+    "technique_name": "Content Injection",
+    "tactics": [
+      "Initial Access",
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1055": {
+    "technique_id": "T1055",
+    "technique_name": "Process Injection",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1567.004": {
+    "technique_id": "T1567.004",
+    "technique_name": "Exfiltration Over Webhook",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": true
+  },
+  "T1139": {
+    "technique_id": "T1139",
+    "technique_name": "Bash History",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1205": {
+    "technique_id": "T1205",
+    "technique_name": "Traffic Signaling",
+    "tactics": [
+      "Stealth",
+      "Persistence",
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1021.008": {
+    "technique_id": "T1021.008",
+    "technique_name": "Direct Cloud VM Connections",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": true
+  },
+  "T1503": {
+    "technique_id": "T1503",
+    "technique_name": "Credentials from Web Browsers",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1218": {
+    "technique_id": "T1218",
+    "technique_name": "System Binary Proxy Execution",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1153": {
+    "technique_id": "T1153",
+    "technique_name": "Source",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1038": {
+    "technique_id": "T1038",
+    "technique_name": "DLL Search Order Hijacking",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation",
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1050": {
+    "technique_id": "T1050",
+    "technique_name": "New Service",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1070.006": {
+    "technique_id": "T1070.006",
+    "technique_name": "Timestomp",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1557.004": {
+    "technique_id": "T1557.004",
+    "technique_name": "Evil Twin",
+    "tactics": [
+      "Credential Access",
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1620": {
+    "technique_id": "T1620",
+    "technique_name": "Reflective Code Loading",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1016.002": {
+    "technique_id": "T1016.002",
+    "technique_name": "Wi-Fi Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": true
+  },
+  "T1480.002": {
+    "technique_id": "T1480.002",
+    "technique_name": "Mutual Exclusion",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1564.011": {
+    "technique_id": "T1564.011",
+    "technique_name": "Ignore Process Interrupts",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1611": {
+    "technique_id": "T1611",
+    "technique_name": "Escape to Host",
+    "tactics": [
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1518.002": {
+    "technique_id": "T1518.002",
+    "technique_name": "Backup Software Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": true
+  },
+  "T1547.009": {
+    "technique_id": "T1547.009",
+    "technique_name": "Shortcut Modification",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1010": {
+    "technique_id": "T1010",
+    "technique_name": "Application Window Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1569.003": {
+    "technique_id": "T1569.003",
+    "technique_name": "Systemctl",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1032": {
+    "technique_id": "T1032",
+    "technique_name": "Standard Cryptographic Protocol",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1087.003": {
+    "technique_id": "T1087.003",
+    "technique_name": "Email Account",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": true
+  },
+  "T1062": {
+    "technique_id": "T1062",
+    "technique_name": "Hypervisor",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1497.003": {
+    "technique_id": "T1497.003",
+    "technique_name": "Time Based Checks",
+    "tactics": [
+      "Stealth",
+      "Discovery"
+    ],
+    "is_subtechnique": true
+  },
+  "T1182": {
+    "technique_id": "T1182",
+    "technique_name": "AppCert DLLs",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1218.003": {
+    "technique_id": "T1218.003",
+    "technique_name": "CMSTP",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1563.001": {
+    "technique_id": "T1563.001",
+    "technique_name": "SSH Hijacking",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": true
+  },
+  "T1562.002": {
+    "technique_id": "T1562.002",
+    "technique_name": "Disable Windows Event Logging",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1029": {
+    "technique_id": "T1029",
+    "technique_name": "Scheduled Transfer",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": false
+  },
+  "T1021.002": {
+    "technique_id": "T1021.002",
+    "technique_name": "SMB/Windows Admin Shares",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": true
+  },
+  "T1525": {
+    "technique_id": "T1525",
+    "technique_name": "Implant Internal Image",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1572": {
+    "technique_id": "T1572",
+    "technique_name": "Protocol Tunneling",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1218.002": {
+    "technique_id": "T1218.002",
+    "technique_name": "Control Panel",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1599.001": {
+    "technique_id": "T1599.001",
+    "technique_name": "Network Address Translation Traversal",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1608.002": {
+    "technique_id": "T1608.002",
+    "technique_name": "Upload Tool",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1547.005": {
+    "technique_id": "T1547.005",
+    "technique_name": "Security Support Provider",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1036.011": {
+    "technique_id": "T1036.011",
+    "technique_name": "Overwrite Process Arguments",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1004": {
+    "technique_id": "T1004",
+    "technique_name": "Winlogon Helper DLL",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1009": {
+    "technique_id": "T1009",
+    "technique_name": "Binary Padding",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1550": {
+    "technique_id": "T1550",
+    "technique_name": "Use Alternate Authentication Material",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1076": {
+    "technique_id": "T1076",
+    "technique_name": "Remote Desktop Protocol",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1597.001": {
+    "technique_id": "T1597.001",
+    "technique_name": "Threat Intel Vendors",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1011": {
+    "technique_id": "T1011",
+    "technique_name": "Exfiltration Over Other Network Medium",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": false
+  },
+  "T1602.002": {
+    "technique_id": "T1602.002",
+    "technique_name": "Network Device Configuration Dump",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1589": {
+    "technique_id": "T1589",
+    "technique_name": "Gather Victim Identity Information",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": false
+  },
+  "T1131": {
+    "technique_id": "T1131",
+    "technique_name": "Authentication Package",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1181": {
+    "technique_id": "T1181",
+    "technique_name": "Extra Window Memory Injection",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1562.004": {
+    "technique_id": "T1562.004",
+    "technique_name": "Disable or Modify System Firewall",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1560": {
+    "technique_id": "T1560",
+    "technique_name": "Archive Collected Data",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": false
+  },
+  "T1152": {
+    "technique_id": "T1152",
+    "technique_name": "Launchctl",
+    "tactics": [
+      "Stealth",
+      "Execution",
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1553.003": {
+    "technique_id": "T1553.003",
+    "technique_name": "SIP and Trust Provider Hijacking",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1483": {
+    "technique_id": "T1483",
+    "technique_name": "Domain Generation Algorithms",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1185": {
+    "technique_id": "T1185",
+    "technique_name": "Browser Session Hijacking",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": false
+  },
+  "T1021": {
+    "technique_id": "T1021",
+    "technique_name": "Remote Services",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1071.003": {
+    "technique_id": "T1071.003",
+    "technique_name": "Mail Protocols",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1556.007": {
+    "technique_id": "T1556.007",
+    "technique_name": "Hybrid Identity",
+    "tactics": [
+      "Defense Impairment",
+      "Persistence",
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1595.002": {
+    "technique_id": "T1595.002",
+    "technique_name": "Vulnerability Scanning",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1059.009": {
+    "technique_id": "T1059.009",
+    "technique_name": "Cloud API",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1596": {
+    "technique_id": "T1596",
+    "technique_name": "Search Open Technical Databases",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": false
+  },
+  "T1218.015": {
+    "technique_id": "T1218.015",
+    "technique_name": "Electron Applications",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1562.012": {
+    "technique_id": "T1562.012",
+    "technique_name": "Disable or Modify Linux Audit System",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1207": {
+    "technique_id": "T1207",
+    "technique_name": "Rogue Domain Controller",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": false
+  },
+  "T1553.006": {
+    "technique_id": "T1553.006",
+    "technique_name": "Code Signing Policy Modification",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1610": {
+    "technique_id": "T1610",
+    "technique_name": "Deploy Container",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1107": {
+    "technique_id": "T1107",
+    "technique_name": "File Deletion",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1145": {
+    "technique_id": "T1145",
+    "technique_name": "Private Keys",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1112": {
+    "technique_id": "T1112",
+    "technique_name": "Modify Registry",
+    "tactics": [
+      "Defense Impairment",
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1543.004": {
+    "technique_id": "T1543.004",
+    "technique_name": "Launch Daemon",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1580": {
+    "technique_id": "T1580",
+    "technique_name": "Cloud Infrastructure Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1555.003": {
+    "technique_id": "T1555.003",
+    "technique_name": "Credentials from Web Browsers",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1574.008": {
+    "technique_id": "T1574.008",
+    "technique_name": "Path Interception by Search Order Hijacking",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1491": {
+    "technique_id": "T1491",
+    "technique_name": "Defacement",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1535": {
+    "technique_id": "T1535",
+    "technique_name": "Unused/Unsupported Cloud Regions",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1557.003": {
+    "technique_id": "T1557.003",
+    "technique_name": "DHCP Spoofing",
+    "tactics": [
+      "Credential Access",
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1155": {
+    "technique_id": "T1155",
+    "technique_name": "AppleScript",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1563": {
+    "technique_id": "T1563",
+    "technique_name": "Remote Service Session Hijacking",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1564.013": {
+    "technique_id": "T1564.013",
+    "technique_name": "Bind Mounts",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1027.001": {
+    "technique_id": "T1027.001",
+    "technique_name": "Binary Padding",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1505.003": {
+    "technique_id": "T1505.003",
+    "technique_name": "Web Shell",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1484.001": {
+    "technique_id": "T1484.001",
+    "technique_name": "Group Policy Modification",
+    "tactics": [
+      "Defense Impairment",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1685.006": {
+    "technique_id": "T1685.006",
+    "technique_name": "Clear Linux or Mac System Logs",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1217": {
+    "technique_id": "T1217",
+    "technique_name": "Browser Information Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1552.004": {
+    "technique_id": "T1552.004",
+    "technique_name": "Private Keys",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1583.004": {
+    "technique_id": "T1583.004",
+    "technique_name": "Server",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1021.006": {
+    "technique_id": "T1021.006",
+    "technique_name": "Windows Remote Management",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": true
+  },
+  "T1011.001": {
+    "technique_id": "T1011.001",
+    "technique_name": "Exfiltration Over Bluetooth",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": true
+  },
+  "T1078.001": {
+    "technique_id": "T1078.001",
+    "technique_name": "Default Accounts",
+    "tactics": [
+      "Stealth",
+      "Persistence",
+      "Privilege Escalation",
+      "Initial Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1547.003": {
+    "technique_id": "T1547.003",
+    "technique_name": "Time Providers",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1183": {
+    "technique_id": "T1183",
+    "technique_name": "Image File Execution Options Injection",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence",
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1085": {
+    "technique_id": "T1085",
+    "technique_name": "Rundll32",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1031": {
+    "technique_id": "T1031",
+    "technique_name": "Modify Existing Service",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1546.005": {
+    "technique_id": "T1546.005",
+    "technique_name": "Trap",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1574.006": {
+    "technique_id": "T1574.006",
+    "technique_name": "Dynamic Linker Hijacking",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1136.001": {
+    "technique_id": "T1136.001",
+    "technique_name": "Local Account",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1681": {
+    "technique_id": "T1681",
+    "technique_name": "Search Threat Vendor Data",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": false
+  },
+  "T1674": {
+    "technique_id": "T1674",
+    "technique_name": "Input Injection",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1092": {
+    "technique_id": "T1092",
+    "technique_name": "Communication Through Removable Media",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1070.001": {
+    "technique_id": "T1070.001",
+    "technique_name": "Clear Windows Event Logs",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1585.002": {
+    "technique_id": "T1585.002",
+    "technique_name": "Email Accounts",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1557.001": {
+    "technique_id": "T1557.001",
+    "technique_name": "Name Resolution Poisoning and SMB Relay",
+    "tactics": [
+      "Credential Access",
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1222": {
+    "technique_id": "T1222",
+    "technique_name": "File and Directory Permissions Modification",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": false
+  },
+  "T1003.001": {
+    "technique_id": "T1003.001",
+    "technique_name": "LSASS Memory",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1053.001": {
+    "technique_id": "T1053.001",
+    "technique_name": "At (Linux)",
+    "tactics": [
+      "Execution",
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1176.002": {
+    "technique_id": "T1176.002",
+    "technique_name": "IDE Extensions",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1179": {
+    "technique_id": "T1179",
+    "technique_name": "Hooking",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation",
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1595": {
+    "technique_id": "T1595",
+    "technique_name": "Active Scanning",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": false
+  },
+  "T1027.016": {
+    "technique_id": "T1027.016",
+    "technique_name": "Junk Code Insertion",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1547.011": {
+    "technique_id": "T1547.011",
+    "technique_name": "Plist Modification",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1548": {
+    "technique_id": "T1548",
+    "technique_name": "Abuse Elevation Control Mechanism",
+    "tactics": [
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1134.002": {
+    "technique_id": "T1134.002",
+    "technique_name": "Create Process with Token",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1548.001": {
+    "technique_id": "T1548.001",
+    "technique_name": "Setuid and Setgid",
+    "tactics": [
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1547.004": {
+    "technique_id": "T1547.004",
+    "technique_name": "Winlogon Helper DLL",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1019": {
+    "technique_id": "T1019",
+    "technique_name": "System Firmware",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1021.003": {
+    "technique_id": "T1021.003",
+    "technique_name": "Distributed Component Object Model",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": true
+  },
+  "T1042": {
+    "technique_id": "T1042",
+    "technique_name": "Change Default File Association",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1117": {
+    "technique_id": "T1117",
+    "technique_name": "Regsvr32",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1110.003": {
+    "technique_id": "T1110.003",
+    "technique_name": "Password Spraying",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1090.002": {
+    "technique_id": "T1090.002",
+    "technique_name": "External Proxy",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1056.003": {
+    "technique_id": "T1056.003",
+    "technique_name": "Web Portal Capture",
+    "tactics": [
+      "Collection",
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1589.002": {
+    "technique_id": "T1589.002",
+    "technique_name": "Email Addresses",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1164": {
+    "technique_id": "T1164",
+    "technique_name": "Re-opened Applications",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1054": {
+    "technique_id": "T1054",
+    "technique_name": "Indicator Blocking",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1598.004": {
+    "technique_id": "T1598.004",
+    "technique_name": "Spearphishing Voice",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1683.001": {
+    "technique_id": "T1683.001",
+    "technique_name": "Written Content",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1108": {
+    "technique_id": "T1108",
+    "technique_name": "Redundant Access",
+    "tactics": [
+      "Stealth",
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1193": {
+    "technique_id": "T1193",
+    "technique_name": "Spearphishing Attachment",
+    "tactics": [
+      "Initial Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1003.005": {
+    "technique_id": "T1003.005",
+    "technique_name": "Cached Domain Credentials",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1098.004": {
+    "technique_id": "T1098.004",
+    "technique_name": "SSH Authorized Keys",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1673": {
+    "technique_id": "T1673",
+    "technique_name": "Virtual Machine Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1215": {
+    "technique_id": "T1215",
+    "technique_name": "Kernel Modules and Extensions",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1101": {
+    "technique_id": "T1101",
+    "technique_name": "Security Support Provider",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1590.006": {
+    "technique_id": "T1590.006",
+    "technique_name": "Network Security Appliances",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1546.012": {
+    "technique_id": "T1546.012",
+    "technique_name": "Image File Execution Options Injection",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1218.008": {
+    "technique_id": "T1218.008",
+    "technique_name": "Odbcconf",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1593.002": {
+    "technique_id": "T1593.002",
+    "technique_name": "Search Engines",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1177": {
+    "technique_id": "T1177",
+    "technique_name": "LSASS Driver",
+    "tactics": [
+      "Execution",
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1591.002": {
+    "technique_id": "T1591.002",
+    "technique_name": "Business Relationships",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1548.005": {
+    "technique_id": "T1548.005",
+    "technique_name": "Temporary Elevated Cloud Access",
+    "tactics": [
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1125": {
+    "technique_id": "T1125",
+    "technique_name": "Video Capture",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": false
+  },
+  "T1144": {
+    "technique_id": "T1144",
+    "technique_name": "Gatekeeper Bypass",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1045": {
+    "technique_id": "T1045",
+    "technique_name": "Software Packing",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1055.013": {
+    "technique_id": "T1055.013",
+    "technique_name": "Process Doppelgänging",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1016": {
+    "technique_id": "T1016",
+    "technique_name": "System Network Configuration Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1578.003": {
+    "technique_id": "T1578.003",
+    "technique_name": "Delete Cloud Instance",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1593.003": {
+    "technique_id": "T1593.003",
+    "technique_name": "Code Repositories",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1574.005": {
+    "technique_id": "T1574.005",
+    "technique_name": "Executable Installer File Permissions Weakness",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1546.008": {
+    "technique_id": "T1546.008",
+    "technique_name": "Accessibility Features",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1496.002": {
+    "technique_id": "T1496.002",
+    "technique_name": "Bandwidth Hijacking",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1504": {
+    "technique_id": "T1504",
+    "technique_name": "PowerShell Profile",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1198": {
+    "technique_id": "T1198",
+    "technique_name": "SIP and Trust Provider Hijacking",
+    "tactics": [
+      "Stealth",
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1087": {
+    "technique_id": "T1087",
+    "technique_name": "Account Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1090": {
+    "technique_id": "T1090",
+    "technique_name": "Proxy",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1059": {
+    "technique_id": "T1059",
+    "technique_name": "Command and Scripting Interpreter",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1204.005": {
+    "technique_id": "T1204.005",
+    "technique_name": "Malicious Library",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1562.006": {
+    "technique_id": "T1562.006",
+    "technique_name": "Indicator Blocking",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1685.005": {
+    "technique_id": "T1685.005",
+    "technique_name": "Clear Windows Event Logs",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1136.002": {
+    "technique_id": "T1136.002",
+    "technique_name": "Domain Account",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1564.014": {
+    "technique_id": "T1564.014",
+    "technique_name": "Extended Attributes",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1589.003": {
+    "technique_id": "T1589.003",
+    "technique_name": "Employee Names",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1677": {
+    "technique_id": "T1677",
+    "technique_name": "Poisoned Pipeline Execution",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1482": {
+    "technique_id": "T1482",
+    "technique_name": "Domain Trust Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1558.001": {
+    "technique_id": "T1558.001",
+    "technique_name": "Golden Ticket",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1175": {
+    "technique_id": "T1175",
+    "technique_name": "Component Object Model and Distributed COM",
+    "tactics": [
+      "Lateral Movement",
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1020": {
+    "technique_id": "T1020",
+    "technique_name": "Automated Exfiltration",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": false
+  },
+  "T1592.004": {
+    "technique_id": "T1592.004",
+    "technique_name": "Client Configurations",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1562.007": {
+    "technique_id": "T1562.007",
+    "technique_name": "Disable or Modify Cloud Firewall",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1219.001": {
+    "technique_id": "T1219.001",
+    "technique_name": "IDE Tunneling",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1036.002": {
+    "technique_id": "T1036.002",
+    "technique_name": "Right-to-Left Override",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1588.001": {
+    "technique_id": "T1588.001",
+    "technique_name": "Malware",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1027.017": {
+    "technique_id": "T1027.017",
+    "technique_name": "SVG Smuggling",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1542.002": {
+    "technique_id": "T1542.002",
+    "technique_name": "Component Firmware",
+    "tactics": [
+      "Stealth",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1070": {
+    "technique_id": "T1070",
+    "technique_name": "Indicator Removal",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1048.001": {
+    "technique_id": "T1048.001",
+    "technique_name": "Exfiltration Over Symmetric Encrypted Non-C2 Protocol",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": true
+  },
+  "T1137.001": {
+    "technique_id": "T1137.001",
+    "technique_name": "Office Template Macros",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1583.003": {
+    "technique_id": "T1583.003",
+    "technique_name": "Virtual Private Server",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1213.001": {
+    "technique_id": "T1213.001",
+    "technique_name": "Confluence",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1550.003": {
+    "technique_id": "T1550.003",
+    "technique_name": "Pass the Ticket",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": true
+  },
+  "T1609": {
+    "technique_id": "T1609",
+    "technique_name": "Container Administration Command",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1083": {
+    "technique_id": "T1083",
+    "technique_name": "File and Directory Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1568": {
+    "technique_id": "T1568",
+    "technique_name": "Dynamic Resolution",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1036.004": {
+    "technique_id": "T1036.004",
+    "technique_name": "Masquerade Task or Service",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1055.004": {
+    "technique_id": "T1055.004",
+    "technique_name": "Asynchronous Procedure Call",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1020.001": {
+    "technique_id": "T1020.001",
+    "technique_name": "Traffic Duplication",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": true
+  },
+  "T1138": {
+    "technique_id": "T1138",
+    "technique_name": "Application Shimming",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1647": {
+    "technique_id": "T1647",
+    "technique_name": "Plist File Modification",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": false
+  },
+  "T1127.003": {
+    "technique_id": "T1127.003",
+    "technique_name": "JamPlus",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1546.009": {
+    "technique_id": "T1546.009",
+    "technique_name": "AppCert DLLs",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1191": {
+    "technique_id": "T1191",
+    "technique_name": "CMSTP",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1188": {
+    "technique_id": "T1188",
+    "technique_name": "Multi-hop Proxy",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1114.003": {
+    "technique_id": "T1114.003",
+    "technique_name": "Email Forwarding Rule",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1074": {
+    "technique_id": "T1074",
+    "technique_name": "Data Staged",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": false
+  },
+  "T1649": {
+    "technique_id": "T1649",
+    "technique_name": "Steal or Forge Authentication Certificates",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1098.005": {
+    "technique_id": "T1098.005",
+    "technique_name": "Device Registration",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1049": {
+    "technique_id": "T1049",
+    "technique_name": "System Network Connections Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1584": {
+    "technique_id": "T1584",
+    "technique_name": "Compromise Infrastructure",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": false
+  },
+  "T1553.005": {
+    "technique_id": "T1553.005",
+    "technique_name": "Mark-of-the-Web Bypass",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1600.002": {
+    "technique_id": "T1600.002",
+    "technique_name": "Disable Crypto Hardware",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1542": {
+    "technique_id": "T1542",
+    "technique_name": "Pre-OS Boot",
+    "tactics": [
+      "Stealth",
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1064": {
+    "technique_id": "T1064",
+    "technique_name": "Scripting",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1612": {
+    "technique_id": "T1612",
+    "technique_name": "Build Image on Host",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1051": {
+    "technique_id": "T1051",
+    "technique_name": "Shared Webroot",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1055.002": {
+    "technique_id": "T1055.002",
+    "technique_name": "Portable Executable Injection",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1218.012": {
+    "technique_id": "T1218.012",
+    "technique_name": "Verclsid",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1586": {
+    "technique_id": "T1586",
+    "technique_name": "Compromise Accounts",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": false
+  },
+  "T1569.001": {
+    "technique_id": "T1569.001",
+    "technique_name": "Launchctl",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1584.005": {
+    "technique_id": "T1584.005",
+    "technique_name": "Botnet",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1059.008": {
+    "technique_id": "T1059.008",
+    "technique_name": "Network Device CLI",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1552.003": {
+    "technique_id": "T1552.003",
+    "technique_name": "Shell History",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1562.010": {
+    "technique_id": "T1562.010",
+    "technique_name": "Downgrade Attack",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1559.003": {
+    "technique_id": "T1559.003",
+    "technique_name": "XPC Services",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1497": {
+    "technique_id": "T1497",
+    "technique_name": "Virtualization/Sandbox Evasion",
+    "tactics": [
+      "Stealth",
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1102": {
+    "technique_id": "T1102",
+    "technique_name": "Web Service",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1552.001": {
+    "technique_id": "T1552.001",
+    "technique_name": "Credentials In Files",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1568.003": {
+    "technique_id": "T1568.003",
+    "technique_name": "DNS Calculation",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1218.005": {
+    "technique_id": "T1218.005",
+    "technique_name": "Mshta",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1547.015": {
+    "technique_id": "T1547.015",
+    "technique_name": "Login Items",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1608": {
+    "technique_id": "T1608",
+    "technique_name": "Stage Capabilities",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": false
+  },
+  "T1608.005": {
+    "technique_id": "T1608.005",
+    "technique_name": "Link Target",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1104": {
+    "technique_id": "T1104",
+    "technique_name": "Multi-Stage Channels",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1657": {
+    "technique_id": "T1657",
+    "technique_name": "Financial Theft",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1480": {
+    "technique_id": "T1480",
+    "technique_name": "Execution Guardrails",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1619": {
+    "technique_id": "T1619",
+    "technique_name": "Cloud Storage Object Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1606.001": {
+    "technique_id": "T1606.001",
+    "technique_name": "Web Cookies",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1654": {
+    "technique_id": "T1654",
+    "technique_name": "Log Enumeration",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1134.001": {
+    "technique_id": "T1134.001",
+    "technique_name": "Token Impersonation/Theft",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1567.001": {
+    "technique_id": "T1567.001",
+    "technique_name": "Exfiltration to Code Repository",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": true
+  },
+  "T1021.007": {
+    "technique_id": "T1021.007",
+    "technique_name": "Cloud Services",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": true
+  },
+  "T1205.001": {
+    "technique_id": "T1205.001",
+    "technique_name": "Port Knocking",
+    "tactics": [
+      "Stealth",
+      "Persistence",
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1027.012": {
+    "technique_id": "T1027.012",
+    "technique_name": "LNK Icon Smuggling",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1583.006": {
+    "technique_id": "T1583.006",
+    "technique_name": "Web Services",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1528": {
+    "technique_id": "T1528",
+    "technique_name": "Steal Application Access Token",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1598.002": {
+    "technique_id": "T1598.002",
+    "technique_name": "Spearphishing Attachment",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1098.001": {
+    "technique_id": "T1098.001",
+    "technique_name": "Additional Cloud Credentials",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1204": {
+    "technique_id": "T1204",
+    "technique_name": "User Execution",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1491.001": {
+    "technique_id": "T1491.001",
+    "technique_name": "Internal Defacement",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1564.002": {
+    "technique_id": "T1564.002",
+    "technique_name": "Hidden Users",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1134.003": {
+    "technique_id": "T1134.003",
+    "technique_name": "Make and Impersonate Token",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1552.006": {
+    "technique_id": "T1552.006",
+    "technique_name": "Group Policy Preferences",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1196": {
+    "technique_id": "T1196",
+    "technique_name": "Control Panel Items",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1048.002": {
+    "technique_id": "T1048.002",
+    "technique_name": "Exfiltration Over Asymmetric Encrypted Non-C2 Protocol",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": true
+  },
+  "T1087.004": {
+    "technique_id": "T1087.004",
+    "technique_name": "Cloud Account",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": true
+  },
+  "T1683.002": {
+    "technique_id": "T1683.002",
+    "technique_name": "Audio-Visual Content",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1057": {
+    "technique_id": "T1057",
+    "technique_name": "Process Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1562.003": {
+    "technique_id": "T1562.003",
+    "technique_name": "Impair Command History Logging",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1053.004": {
+    "technique_id": "T1053.004",
+    "technique_name": "Launchd",
+    "tactics": [
+      "Execution",
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1556.008": {
+    "technique_id": "T1556.008",
+    "technique_name": "Network Provider DLL",
+    "tactics": [
+      "Defense Impairment",
+      "Persistence",
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1546.003": {
+    "technique_id": "T1546.003",
+    "technique_name": "Windows Management Instrumentation Event Subscription",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1596.004": {
+    "technique_id": "T1596.004",
+    "technique_name": "CDNs",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1497.002": {
+    "technique_id": "T1497.002",
+    "technique_name": "User Activity Based Checks",
+    "tactics": [
+      "Stealth",
+      "Discovery"
+    ],
+    "is_subtechnique": true
+  },
+  "T1141": {
+    "technique_id": "T1141",
+    "technique_name": "Input Prompt",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1496.004": {
+    "technique_id": "T1496.004",
+    "technique_name": "Cloud Service Hijacking",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1585.003": {
+    "technique_id": "T1585.003",
+    "technique_name": "Cloud Accounts",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1072": {
+    "technique_id": "T1072",
+    "technique_name": "Software Deployment Tools",
+    "tactics": [
+      "Execution",
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1041": {
+    "technique_id": "T1041",
+    "technique_name": "Exfiltration Over C2 Channel",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": false
+  },
+  "T1134.004": {
+    "technique_id": "T1134.004",
+    "technique_name": "Parent PID Spoofing",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1591": {
+    "technique_id": "T1591",
+    "technique_name": "Gather Victim Org Information",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": false
+  },
+  "T1060": {
+    "technique_id": "T1060",
+    "technique_name": "Registry Run Keys / Startup Folder",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1606": {
+    "technique_id": "T1606",
+    "technique_name": "Forge Web Credentials",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1621": {
+    "technique_id": "T1621",
+    "technique_name": "Multi-Factor Authentication Request Generation",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1554": {
+    "technique_id": "T1554",
+    "technique_name": "Compromise Host Software Binary",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1552.008": {
+    "technique_id": "T1552.008",
+    "technique_name": "Chat Messages",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1059.001": {
+    "technique_id": "T1059.001",
+    "technique_name": "PowerShell",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1023": {
+    "technique_id": "T1023",
+    "technique_name": "Shortcut Modification",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1546.001": {
+    "technique_id": "T1546.001",
+    "technique_name": "Change Default File Association",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1055.014": {
+    "technique_id": "T1055.014",
+    "technique_name": "VDSO Hijacking",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1026": {
+    "technique_id": "T1026",
+    "technique_name": "Multiband Communication",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1071.002": {
+    "technique_id": "T1071.002",
+    "technique_name": "File Transfer Protocols",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1679": {
+    "technique_id": "T1679",
+    "technique_name": "Selective Exclusion",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1122": {
+    "technique_id": "T1122",
+    "technique_name": "Component Object Model Hijacking",
+    "tactics": [
+      "Stealth",
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1015": {
+    "technique_id": "T1015",
+    "technique_name": "Accessibility Features",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1212": {
+    "technique_id": "T1212",
+    "technique_name": "Exploitation for Credential Access",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1546.014": {
+    "technique_id": "T1546.014",
+    "technique_name": "Emond",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1102.003": {
+    "technique_id": "T1102.003",
+    "technique_name": "One-Way Communication",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1590": {
+    "technique_id": "T1590",
+    "technique_name": "Gather Victim Network Information",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": false
+  },
+  "T1210": {
+    "technique_id": "T1210",
+    "technique_name": "Exploitation of Remote Services",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1502": {
+    "technique_id": "T1502",
+    "technique_name": "Parent PID Spoofing",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1142": {
+    "technique_id": "T1142",
+    "technique_name": "Keychain",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1534": {
+    "technique_id": "T1534",
+    "technique_name": "Internal Spearphishing",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1169": {
+    "technique_id": "T1169",
+    "technique_name": "Sudo",
+    "tactics": [
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1574.010": {
+    "technique_id": "T1574.010",
+    "technique_name": "Services File Permissions Weakness",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1547.001": {
+    "technique_id": "T1547.001",
+    "technique_name": "Registry Run Keys / Startup Folder",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1199": {
+    "technique_id": "T1199",
+    "technique_name": "Trusted Relationship",
+    "tactics": [
+      "Initial Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1136.003": {
+    "technique_id": "T1136.003",
+    "technique_name": "Cloud Account",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1069.001": {
+    "technique_id": "T1069.001",
+    "technique_name": "Local Groups",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": true
+  },
+  "T1149": {
+    "technique_id": "T1149",
+    "technique_name": "LC_MAIN Hijacking",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1593": {
+    "technique_id": "T1593",
+    "technique_name": "Search Open Websites/Domains",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": false
+  },
+  "T1562.013": {
+    "technique_id": "T1562.013",
+    "technique_name": "Disable or Modify Network Device Firewall",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1098": {
+    "technique_id": "T1098",
+    "technique_name": "Account Manipulation",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1170": {
+    "technique_id": "T1170",
+    "technique_name": "Mshta",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1048": {
+    "technique_id": "T1048",
+    "technique_name": "Exfiltration Over Alternative Protocol",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": false
+  },
+  "T1547.006": {
+    "technique_id": "T1547.006",
+    "technique_name": "Kernel Modules and Extensions",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1678": {
+    "technique_id": "T1678",
+    "technique_name": "Delay Execution",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1056.002": {
+    "technique_id": "T1056.002",
+    "technique_name": "GUI Input Capture",
+    "tactics": [
+      "Collection",
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1097": {
+    "technique_id": "T1097",
+    "technique_name": "Pass the Ticket",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1686.002": {
+    "technique_id": "T1686.002",
+    "technique_name": "Network Device Firewall",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1588.002": {
+    "technique_id": "T1588.002",
+    "technique_name": "Tool",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1052.001": {
+    "technique_id": "T1052.001",
+    "technique_name": "Exfiltration over USB",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": true
+  },
+  "T1574.013": {
+    "technique_id": "T1574.013",
+    "technique_name": "KernelCallbackTable",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1597": {
+    "technique_id": "T1597",
+    "technique_name": "Search Closed Sources",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": false
+  },
+  "T1053.006": {
+    "technique_id": "T1053.006",
+    "technique_name": "Systemd Timers",
+    "tactics": [
+      "Execution",
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1566": {
+    "technique_id": "T1566",
+    "technique_name": "Phishing",
+    "tactics": [
+      "Initial Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1061": {
+    "technique_id": "T1061",
+    "technique_name": "Graphical User Interface",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1542.004": {
+    "technique_id": "T1542.004",
+    "technique_name": "ROMMONkit",
+    "tactics": [
+      "Stealth",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1218.001": {
+    "technique_id": "T1218.001",
+    "technique_name": "Compiled HTML File",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1496.001": {
+    "technique_id": "T1496.001",
+    "technique_name": "Compute Hijacking",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1070.005": {
+    "technique_id": "T1070.005",
+    "technique_name": "Network Share Connection Removal",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1090.003": {
+    "technique_id": "T1090.003",
+    "technique_name": "Multi-hop Proxy",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1110": {
+    "technique_id": "T1110",
+    "technique_name": "Brute Force",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1059.004": {
+    "technique_id": "T1059.004",
+    "technique_name": "Unix Shell",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1137.003": {
+    "technique_id": "T1137.003",
+    "technique_name": "Outlook Forms",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1219.003": {
+    "technique_id": "T1219.003",
+    "technique_name": "Remote Access Hardware",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1157": {
+    "technique_id": "T1157",
+    "technique_name": "Dylib Hijacking",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1562.001": {
+    "technique_id": "T1562.001",
+    "technique_name": "Disable or Modify Tools",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1565": {
+    "technique_id": "T1565",
+    "technique_name": "Data Manipulation",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1559": {
+    "technique_id": "T1559",
+    "technique_name": "Inter-Process Communication",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1001": {
+    "technique_id": "T1001",
+    "technique_name": "Data Obfuscation",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1039": {
+    "technique_id": "T1039",
+    "technique_name": "Data from Network Shared Drive",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": false
+  },
+  "T1584.006": {
+    "technique_id": "T1584.006",
+    "technique_name": "Web Services",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1601": {
+    "technique_id": "T1601",
+    "technique_name": "Modify System Image",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": false
+  },
+  "T1574": {
+    "technique_id": "T1574",
+    "technique_name": "Hijack Execution Flow",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1036.012": {
+    "technique_id": "T1036.012",
+    "technique_name": "Browser Fingerprint",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1059.011": {
+    "technique_id": "T1059.011",
+    "technique_name": "Lua",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1027.005": {
+    "technique_id": "T1027.005",
+    "technique_name": "Indicator Removal from Tools",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1204.003": {
+    "technique_id": "T1204.003",
+    "technique_name": "Malicious Image",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1543.005": {
+    "technique_id": "T1543.005",
+    "technique_name": "Container Service",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1078": {
+    "technique_id": "T1078",
+    "technique_name": "Valid Accounts",
+    "tactics": [
+      "Stealth",
+      "Persistence",
+      "Privilege Escalation",
+      "Initial Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1571": {
+    "technique_id": "T1571",
+    "technique_name": "Non-Standard Port",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1585.001": {
+    "technique_id": "T1585.001",
+    "technique_name": "Social Media Accounts",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1073": {
+    "technique_id": "T1073",
+    "technique_name": "DLL Side-Loading",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1055.012": {
+    "technique_id": "T1055.012",
+    "technique_name": "Process Hollowing",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1068": {
+    "technique_id": "T1068",
+    "technique_name": "Exploitation for Privilege Escalation",
+    "tactics": [
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1564.009": {
+    "technique_id": "T1564.009",
+    "technique_name": "Resource Forking",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1531": {
+    "technique_id": "T1531",
+    "technique_name": "Account Access Removal",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1110.004": {
+    "technique_id": "T1110.004",
+    "technique_name": "Credential Stuffing",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1208": {
+    "technique_id": "T1208",
+    "technique_name": "Kerberoasting",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1027": {
+    "technique_id": "T1027",
+    "technique_name": "Obfuscated Files or Information",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1556.006": {
+    "technique_id": "T1556.006",
+    "technique_name": "Multi-Factor Authentication",
+    "tactics": [
+      "Defense Impairment",
+      "Persistence",
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1114.002": {
+    "technique_id": "T1114.002",
+    "technique_name": "Remote Email Collection",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1505.004": {
+    "technique_id": "T1505.004",
+    "technique_name": "IIS Components",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1036.001": {
+    "technique_id": "T1036.001",
+    "technique_name": "Invalid Code Signature",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1683": {
+    "technique_id": "T1683",
+    "technique_name": "Generate Content",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": false
+  },
+  "T1564.006": {
+    "technique_id": "T1564.006",
+    "technique_name": "Run Virtual Instance",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1154": {
+    "technique_id": "T1154",
+    "technique_name": "Trap",
+    "tactics": [
+      "Execution",
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1027.014": {
+    "technique_id": "T1027.014",
+    "technique_name": "Polymorphic Code",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1201": {
+    "technique_id": "T1201",
+    "technique_name": "Password Policy Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1546": {
+    "technique_id": "T1546",
+    "technique_name": "Event Triggered Execution",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1546.004": {
+    "technique_id": "T1546.004",
+    "technique_name": "Unix Shell Configuration Modification",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1187": {
+    "technique_id": "T1187",
+    "technique_name": "Forced Authentication",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1134.005": {
+    "technique_id": "T1134.005",
+    "technique_name": "SID-History Injection",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1599": {
+    "technique_id": "T1599",
+    "technique_name": "Network Boundary Bridging",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": false
+  },
+  "T1486": {
+    "technique_id": "T1486",
+    "technique_name": "Data Encrypted for Impact",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1488": {
+    "technique_id": "T1488",
+    "technique_name": "Disk Content Wipe",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1690": {
+    "technique_id": "T1690",
+    "technique_name": "Prevent Command History Logging",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": false
+  },
+  "T1553": {
+    "technique_id": "T1553",
+    "technique_name": "Subvert Trust Controls",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": false
+  },
+  "T1548.004": {
+    "technique_id": "T1548.004",
+    "technique_name": "Elevated Execution with Prompt",
+    "tactics": [
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1592.003": {
+    "technique_id": "T1592.003",
+    "technique_name": "Firmware",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1573": {
+    "technique_id": "T1573",
+    "technique_name": "Encrypted Channel",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1174": {
+    "technique_id": "T1174",
+    "technique_name": "Password Filter DLL",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1547.002": {
+    "technique_id": "T1547.002",
+    "technique_name": "Authentication Package",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1218.010": {
+    "technique_id": "T1218.010",
+    "technique_name": "Regsvr32",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1002": {
+    "technique_id": "T1002",
+    "technique_name": "Data Compressed",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": false
+  },
+  "T1567.003": {
+    "technique_id": "T1567.003",
+    "technique_name": "Exfiltration to Text Storage Sites",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": true
+  },
+  "T1081": {
+    "technique_id": "T1081",
+    "technique_name": "Credentials in Files",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1592.002": {
+    "technique_id": "T1592.002",
+    "technique_name": "Software",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1128": {
+    "technique_id": "T1128",
+    "technique_name": "Netsh Helper DLL",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1056": {
+    "technique_id": "T1056",
+    "technique_name": "Input Capture",
+    "tactics": [
+      "Collection",
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1566.004": {
+    "technique_id": "T1566.004",
+    "technique_name": "Spearphishing Voice",
+    "tactics": [
+      "Initial Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1587.004": {
+    "technique_id": "T1587.004",
+    "technique_name": "Exploits",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1685": {
+    "technique_id": "T1685",
+    "technique_name": "Disable or Modify Tools",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": false
+  },
+  "T1593.001": {
+    "technique_id": "T1593.001",
+    "technique_name": "Social Media",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1213.004": {
+    "technique_id": "T1213.004",
+    "technique_name": "Customer Relationship Management Software",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1546.015": {
+    "technique_id": "T1546.015",
+    "technique_name": "Component Object Model Hijacking",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1589.001": {
+    "technique_id": "T1589.001",
+    "technique_name": "Credentials",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1195.002": {
+    "technique_id": "T1195.002",
+    "technique_name": "Compromise Software Supply Chain",
+    "tactics": [
+      "Initial Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1036.003": {
+    "technique_id": "T1036.003",
+    "technique_name": "Rename Legitimate Utilities",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1102.002": {
+    "technique_id": "T1102.002",
+    "technique_name": "Bidirectional Communication",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1203": {
+    "technique_id": "T1203",
+    "technique_name": "Exploitation for Client Execution",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1595.003": {
+    "technique_id": "T1595.003",
+    "technique_name": "Wordlist Scanning",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1667": {
+    "technique_id": "T1667",
+    "technique_name": "Email Bombing",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1562.011": {
+    "technique_id": "T1562.011",
+    "technique_name": "Spoof Security Alerting",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1137.004": {
+    "technique_id": "T1137.004",
+    "technique_name": "Outlook Home Page",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1573.002": {
+    "technique_id": "T1573.002",
+    "technique_name": "Asymmetric Cryptography",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1567.002": {
+    "technique_id": "T1567.002",
+    "technique_name": "Exfiltration to Cloud Storage",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": true
+  },
+  "T1570": {
+    "technique_id": "T1570",
+    "technique_name": "Lateral Tool Transfer",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1574.009": {
+    "technique_id": "T1574.009",
+    "technique_name": "Path Interception by Unquoted Path",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1608.003": {
+    "technique_id": "T1608.003",
+    "technique_name": "Install Digital Certificate",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1168": {
+    "technique_id": "T1168",
+    "technique_name": "Local Job Scheduling",
+    "tactics": [
+      "Persistence",
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1166": {
+    "technique_id": "T1166",
+    "technique_name": "Setuid and Setgid",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1037.005": {
+    "technique_id": "T1037.005",
+    "technique_name": "Startup Items",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1100": {
+    "technique_id": "T1100",
+    "technique_name": "Web Shell",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1186": {
+    "technique_id": "T1186",
+    "technique_name": "Process Doppelgänging",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1184": {
+    "technique_id": "T1184",
+    "technique_name": "SSH Hijacking",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1614.001": {
+    "technique_id": "T1614.001",
+    "technique_name": "System Language Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": true
+  },
+  "T1095": {
+    "technique_id": "T1095",
+    "technique_name": "Non-Application Layer Protocol",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1075": {
+    "technique_id": "T1075",
+    "technique_name": "Pass the Hash",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1059.013": {
+    "technique_id": "T1059.013",
+    "technique_name": "Container CLI/API",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1027.003": {
+    "technique_id": "T1027.003",
+    "technique_name": "Steganography",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1584.002": {
+    "technique_id": "T1584.002",
+    "technique_name": "DNS Server",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1671": {
+    "technique_id": "T1671",
+    "technique_name": "Cloud Application Integration",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1001.003": {
+    "technique_id": "T1001.003",
+    "technique_name": "Protocol or Service Impersonation",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1012": {
+    "technique_id": "T1012",
+    "technique_name": "Query Registry",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1030": {
+    "technique_id": "T1030",
+    "technique_name": "Data Transfer Size Limits",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": false
+  },
+  "T1028": {
+    "technique_id": "T1028",
+    "technique_name": "Windows Remote Management",
+    "tactics": [
+      "Execution",
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1550.004": {
+    "technique_id": "T1550.004",
+    "technique_name": "Web Session Cookie",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": true
+  },
+  "T1078.002": {
+    "technique_id": "T1078.002",
+    "technique_name": "Domain Accounts",
+    "tactics": [
+      "Stealth",
+      "Persistence",
+      "Privilege Escalation",
+      "Initial Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1218.009": {
+    "technique_id": "T1218.009",
+    "technique_name": "Regsvcs/Regasm",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1034": {
+    "technique_id": "T1034",
+    "technique_name": "Path Interception",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1546.018": {
+    "technique_id": "T1546.018",
+    "technique_name": "Python Startup Hooks",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1506": {
+    "technique_id": "T1506",
+    "technique_name": "Web Session Cookie",
+    "tactics": [
+      "Stealth",
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1553.004": {
+    "technique_id": "T1553.004",
+    "technique_name": "Install Root Certificate",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1037.003": {
+    "technique_id": "T1037.003",
+    "technique_name": "Network Logon Script",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1499": {
+    "technique_id": "T1499",
+    "technique_name": "Endpoint Denial of Service",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1027.004": {
+    "technique_id": "T1027.004",
+    "technique_name": "Compile After Delivery",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1688": {
+    "technique_id": "T1688",
+    "technique_name": "Safe Mode Boot",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": false
+  },
+  "T1065": {
+    "technique_id": "T1065",
+    "technique_name": "Uncommonly Used Port",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1614": {
+    "technique_id": "T1614",
+    "technique_name": "System Location Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1564.007": {
+    "technique_id": "T1564.007",
+    "technique_name": "VBA Stomping",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1197": {
+    "technique_id": "T1197",
+    "technique_name": "BITS Jobs",
+    "tactics": [
+      "Stealth",
+      "Persistence",
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1127.001": {
+    "technique_id": "T1127.001",
+    "technique_name": "MSBuild",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1656": {
+    "technique_id": "T1656",
+    "technique_name": "Impersonation",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1578.005": {
+    "technique_id": "T1578.005",
+    "technique_name": "Modify Cloud Compute Configurations",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1088": {
+    "technique_id": "T1088",
+    "technique_name": "Bypass User Account Control",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1494": {
+    "technique_id": "T1494",
+    "technique_name": "Runtime Data Manipulation",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1090.004": {
+    "technique_id": "T1090.004",
+    "technique_name": "Domain Fronting",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1557.002": {
+    "technique_id": "T1557.002",
+    "technique_name": "ARP Cache Poisoning",
+    "tactics": [
+      "Credential Access",
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1562.008": {
+    "technique_id": "T1562.008",
+    "technique_name": "Disable or Modify Cloud Logs",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1518.001": {
+    "technique_id": "T1518.001",
+    "technique_name": "Security Software Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": true
+  },
+  "T1564.003": {
+    "technique_id": "T1564.003",
+    "technique_name": "Hidden Window",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1493": {
+    "technique_id": "T1493",
+    "technique_name": "Transmitted Data Manipulation",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1127.002": {
+    "technique_id": "T1127.002",
+    "technique_name": "ClickOnce",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1059.006": {
+    "technique_id": "T1059.006",
+    "technique_name": "Python",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1070.010": {
+    "technique_id": "T1070.010",
+    "technique_name": "Relocate Malware",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1591.004": {
+    "technique_id": "T1591.004",
+    "technique_name": "Identify Roles",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1132": {
+    "technique_id": "T1132",
+    "technique_name": "Data Encoding",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1546.010": {
+    "technique_id": "T1546.010",
+    "technique_name": "AppInit DLLs",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1598": {
+    "technique_id": "T1598",
+    "technique_name": "Phishing for Information",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": false
+  },
+  "T1496": {
+    "technique_id": "T1496",
+    "technique_name": "Resource Hijacking",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1684.001": {
+    "technique_id": "T1684.001",
+    "technique_name": "Impersonation",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1585": {
+    "technique_id": "T1585",
+    "technique_name": "Establish Accounts",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": false
+  },
+  "T1588": {
+    "technique_id": "T1588",
+    "technique_name": "Obtain Capabilities",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": false
+  },
+  "T1546.002": {
+    "technique_id": "T1546.002",
+    "technique_name": "Screensaver",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1147": {
+    "technique_id": "T1147",
+    "technique_name": "Hidden Users",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1556.009": {
+    "technique_id": "T1556.009",
+    "technique_name": "Conditional Access Policies",
+    "tactics": [
+      "Defense Impairment",
+      "Persistence",
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1578.002": {
+    "technique_id": "T1578.002",
+    "technique_name": "Create Cloud Instance",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1500": {
+    "technique_id": "T1500",
+    "technique_name": "Compile After Delivery",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1555.006": {
+    "technique_id": "T1555.006",
+    "technique_name": "Cloud Secrets Management Stores",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1213.003": {
+    "technique_id": "T1213.003",
+    "technique_name": "Code Repositories",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1565.002": {
+    "technique_id": "T1565.002",
+    "technique_name": "Transmitted Data Manipulation",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1003.008": {
+    "technique_id": "T1003.008",
+    "technique_name": "/etc/passwd and /etc/shadow",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1543.001": {
+    "technique_id": "T1543.001",
+    "technique_name": "Launch Agent",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1569": {
+    "technique_id": "T1569",
+    "technique_name": "System Services",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1059.003": {
+    "technique_id": "T1059.003",
+    "technique_name": "Windows Command Shell",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1055.009": {
+    "technique_id": "T1055.009",
+    "technique_name": "Proc Memory",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1223": {
+    "technique_id": "T1223",
+    "technique_name": "Compiled HTML File",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1650": {
+    "technique_id": "T1650",
+    "technique_name": "Acquire Access",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": false
+  },
+  "T1601.001": {
+    "technique_id": "T1601.001",
+    "technique_name": "Patch System Image",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1558.002": {
+    "technique_id": "T1558.002",
+    "technique_name": "Silver Ticket",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1213": {
+    "technique_id": "T1213",
+    "technique_name": "Data from Information Repositories",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": false
+  },
+  "T1070.009": {
+    "technique_id": "T1070.009",
+    "technique_name": "Clear Persistence",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1059.012": {
+    "technique_id": "T1059.012",
+    "technique_name": "Hypervisor CLI",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1146": {
+    "technique_id": "T1146",
+    "technique_name": "Clear Command History",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1555.004": {
+    "technique_id": "T1555.004",
+    "technique_name": "Windows Credential Manager",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1036.010": {
+    "technique_id": "T1036.010",
+    "technique_name": "Masquerade Account Name",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1519": {
+    "technique_id": "T1519",
+    "technique_name": "Emond",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1194": {
+    "technique_id": "T1194",
+    "technique_name": "Spearphishing via Service",
+    "tactics": [
+      "Initial Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1200": {
+    "technique_id": "T1200",
+    "technique_name": "Hardware Additions",
+    "tactics": [
+      "Initial Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1219.002": {
+    "technique_id": "T1219.002",
+    "technique_name": "Remote Desktop Software",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1505": {
+    "technique_id": "T1505",
+    "technique_name": "Server Software Component",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1485": {
+    "technique_id": "T1485",
+    "technique_name": "Data Destruction",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1132.002": {
+    "technique_id": "T1132.002",
+    "technique_name": "Non-Standard Encoding",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1556.001": {
+    "technique_id": "T1556.001",
+    "technique_name": "Domain Controller Authentication",
+    "tactics": [
+      "Defense Impairment",
+      "Persistence",
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1537": {
+    "technique_id": "T1537",
+    "technique_name": "Transfer Data to Cloud Account",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": false
+  },
+  "T1027.006": {
+    "technique_id": "T1027.006",
+    "technique_name": "HTML Smuggling",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1556.005": {
+    "technique_id": "T1556.005",
+    "technique_name": "Reversible Encryption",
+    "tactics": [
+      "Defense Impairment",
+      "Persistence",
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1027.010": {
+    "technique_id": "T1027.010",
+    "technique_name": "Command Obfuscation",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1130": {
+    "technique_id": "T1130",
+    "technique_name": "Install Root Certificate",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1022": {
+    "technique_id": "T1022",
+    "technique_name": "Data Encrypted",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": false
+  },
+  "T1070.004": {
+    "technique_id": "T1070.004",
+    "technique_name": "File Deletion",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1189": {
+    "technique_id": "T1189",
+    "technique_name": "Drive-by Compromise",
+    "tactics": [
+      "Initial Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1498": {
+    "technique_id": "T1498",
+    "technique_name": "Network Denial of Service",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1651": {
+    "technique_id": "T1651",
+    "technique_name": "Cloud Administration Command",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1546.016": {
+    "technique_id": "T1546.016",
+    "technique_name": "Installer Packages",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1595.001": {
+    "technique_id": "T1595.001",
+    "technique_name": "Scanning IP Blocks",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1158": {
+    "technique_id": "T1158",
+    "technique_name": "Hidden Files and Directories",
+    "tactics": [
+      "Stealth",
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1221": {
+    "technique_id": "T1221",
+    "technique_name": "Template Injection",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1037.004": {
+    "technique_id": "T1037.004",
+    "technique_name": "RC Scripts",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1134": {
+    "technique_id": "T1134",
+    "technique_name": "Access Token Manipulation",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1209": {
+    "technique_id": "T1209",
+    "technique_name": "Time Providers",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1111": {
+    "technique_id": "T1111",
+    "technique_name": "Multi-Factor Authentication Interception",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1159": {
+    "technique_id": "T1159",
+    "technique_name": "Launch Agent",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1027.002": {
+    "technique_id": "T1027.002",
+    "technique_name": "Software Packing",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1584.007": {
+    "technique_id": "T1584.007",
+    "technique_name": "Serverless",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1071.001": {
+    "technique_id": "T1071.001",
+    "technique_name": "Web Protocols",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1059.005": {
+    "technique_id": "T1059.005",
+    "technique_name": "Visual Basic",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1564.005": {
+    "technique_id": "T1564.005",
+    "technique_name": "Hidden File System",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1543.002": {
+    "technique_id": "T1543.002",
+    "technique_name": "Systemd Service",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1668": {
+    "technique_id": "T1668",
+    "technique_name": "Exclusive Control",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1563.002": {
+    "technique_id": "T1563.002",
+    "technique_name": "RDP Hijacking",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": true
+  },
+  "T1136": {
+    "technique_id": "T1136",
+    "technique_name": "Create Account",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1547.013": {
+    "technique_id": "T1547.013",
+    "technique_name": "XDG Autostart Entries",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1584.004": {
+    "technique_id": "T1584.004",
+    "technique_name": "Server",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1672": {
+    "technique_id": "T1672",
+    "technique_name": "Email Spoofing",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1526": {
+    "technique_id": "T1526",
+    "technique_name": "Cloud Service Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1204.004": {
+    "technique_id": "T1204.004",
+    "technique_name": "Malicious Copy and Paste",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1151": {
+    "technique_id": "T1151",
+    "technique_name": "Space after Filename",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1018": {
+    "technique_id": "T1018",
+    "technique_name": "Remote System Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1046": {
+    "technique_id": "T1046",
+    "technique_name": "Network Service Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1590.001": {
+    "technique_id": "T1590.001",
+    "technique_name": "Domain Properties",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1518": {
+    "technique_id": "T1518",
+    "technique_name": "Software Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1538": {
+    "technique_id": "T1538",
+    "technique_name": "Cloud Service Dashboard",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1055.005": {
+    "technique_id": "T1055.005",
+    "technique_name": "Thread Local Storage",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1622": {
+    "technique_id": "T1622",
+    "technique_name": "Debugger Evasion",
+    "tactics": [
+      "Stealth",
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1036.006": {
+    "technique_id": "T1036.006",
+    "technique_name": "Space after Filename",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1547.007": {
+    "technique_id": "T1547.007",
+    "technique_name": "Re-opened Applications",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1608.006": {
+    "technique_id": "T1608.006",
+    "technique_name": "SEO Poisoning",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1550.002": {
+    "technique_id": "T1550.002",
+    "technique_name": "Pass the Hash",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": true
+  },
+  "T1052": {
+    "technique_id": "T1052",
+    "technique_name": "Exfiltration Over Physical Medium",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": false
+  },
+  "T1574.002": {
+    "technique_id": "T1574.002",
+    "technique_name": "DLL Side-Loading",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1105": {
+    "technique_id": "T1105",
+    "technique_name": "Ingress Tool Transfer",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1216.002": {
+    "technique_id": "T1216.002",
+    "technique_name": "SyncAppvPublishingServer",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1098.002": {
+    "technique_id": "T1098.002",
+    "technique_name": "Additional Email Delegate Permissions",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1588.003": {
+    "technique_id": "T1588.003",
+    "technique_name": "Code Signing Certificates",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1126": {
+    "technique_id": "T1126",
+    "technique_name": "Network Share Connection Removal",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1648": {
+    "technique_id": "T1648",
+    "technique_name": "Serverless Execution",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1548.006": {
+    "technique_id": "T1548.006",
+    "technique_name": "TCC Manipulation",
+    "tactics": [
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1084": {
+    "technique_id": "T1084",
+    "technique_name": "Windows Management Instrumentation Event Subscription",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1160": {
+    "technique_id": "T1160",
+    "technique_name": "Launch Daemon",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1027.018": {
+    "technique_id": "T1027.018",
+    "technique_name": "Invisible Unicode",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1055.008": {
+    "technique_id": "T1055.008",
+    "technique_name": "Ptrace System Calls",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1653": {
+    "technique_id": "T1653",
+    "technique_name": "Power Settings",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": false
+  },
+  "T1027.007": {
+    "technique_id": "T1027.007",
+    "technique_name": "Dynamic API Resolution",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1021.001": {
+    "technique_id": "T1021.001",
+    "technique_name": "Remote Desktop Protocol",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": true
+  },
+  "T1037.001": {
+    "technique_id": "T1037.001",
+    "technique_name": "Logon Script (Windows)",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1055.015": {
+    "technique_id": "T1055.015",
+    "technique_name": "ListPlanting",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1665": {
+    "technique_id": "T1665",
+    "technique_name": "Hide Infrastructure",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1484": {
+    "technique_id": "T1484",
+    "technique_name": "Domain or Tenant Policy Modification",
+    "tactics": [
+      "Defense Impairment",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": false
+  },
+  "T1220": {
+    "technique_id": "T1220",
+    "technique_name": "XSL Script Processing",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1596.005": {
+    "technique_id": "T1596.005",
+    "technique_name": "Scan Databases",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1564.001": {
+    "technique_id": "T1564.001",
+    "technique_name": "Hidden Files and Directories",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1578.001": {
+    "technique_id": "T1578.001",
+    "technique_name": "Create Snapshot",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1591.001": {
+    "technique_id": "T1591.001",
+    "technique_name": "Determine Physical Locations",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1137.002": {
+    "technique_id": "T1137.002",
+    "technique_name": "Office Test",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1587": {
+    "technique_id": "T1587",
+    "technique_name": "Develop Capabilities",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": false
+  },
+  "T1173": {
+    "technique_id": "T1173",
+    "technique_name": "Dynamic Data Exchange",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1003.003": {
+    "technique_id": "T1003.003",
+    "technique_name": "NTDS",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1686.001": {
+    "technique_id": "T1686.001",
+    "technique_name": "Cloud Firewall",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1602.001": {
+    "technique_id": "T1602.001",
+    "technique_name": "SNMP (MIB Dump)",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1686": {
+    "technique_id": "T1686",
+    "technique_name": "Disable or Modify System Firewall",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": false
+  },
+  "T1001.002": {
+    "technique_id": "T1001.002",
+    "technique_name": "Steganography",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1204.001": {
+    "technique_id": "T1204.001",
+    "technique_name": "Malicious Link",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1550.001": {
+    "technique_id": "T1550.001",
+    "technique_name": "Application Access Token",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": true
+  },
+  "T1547.008": {
+    "technique_id": "T1547.008",
+    "technique_name": "LSASS Driver",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1569.002": {
+    "technique_id": "T1569.002",
+    "technique_name": "Service Execution",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1078.004": {
+    "technique_id": "T1078.004",
+    "technique_name": "Cloud Accounts",
+    "tactics": [
+      "Stealth",
+      "Persistence",
+      "Privilege Escalation",
+      "Initial Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1480.001": {
+    "technique_id": "T1480.001",
+    "technique_name": "Environmental Keying",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1008": {
+    "technique_id": "T1008",
+    "technique_name": "Fallback Channels",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1680": {
+    "technique_id": "T1680",
+    "technique_name": "Local Storage Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1564.004": {
+    "technique_id": "T1564.004",
+    "technique_name": "NTFS File Attributes",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1558.003": {
+    "technique_id": "T1558.003",
+    "technique_name": "Kerberoasting",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1096": {
+    "technique_id": "T1096",
+    "technique_name": "NTFS File Attributes",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1003.006": {
+    "technique_id": "T1003.006",
+    "technique_name": "DCSync",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1124": {
+    "technique_id": "T1124",
+    "technique_name": "System Time Discovery",
+    "tactics": [
+      "Discovery"
+    ],
+    "is_subtechnique": false
+  },
+  "T1053.002": {
+    "technique_id": "T1053.002",
+    "technique_name": "At",
+    "tactics": [
+      "Execution",
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1035": {
+    "technique_id": "T1035",
+    "technique_name": "Service Execution",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1055.001": {
+    "technique_id": "T1055.001",
+    "technique_name": "Dynamic-link Library Injection",
+    "tactics": [
+      "Stealth",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1086": {
+    "technique_id": "T1086",
+    "technique_name": "PowerShell",
+    "tactics": [
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1588.005": {
+    "technique_id": "T1588.005",
+    "technique_name": "Exploits",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1556": {
+    "technique_id": "T1556",
+    "technique_name": "Modify Authentication Process",
+    "tactics": [
+      "Defense Impairment",
+      "Persistence",
+      "Credential Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1546.017": {
+    "technique_id": "T1546.017",
+    "technique_name": "Udev Rules",
+    "tactics": [
+      "Persistence",
+      "Privilege Escalation"
+    ],
+    "is_subtechnique": true
+  },
+  "T1056.004": {
+    "technique_id": "T1056.004",
+    "technique_name": "Credential API Hooking",
+    "tactics": [
+      "Collection",
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1495": {
+    "technique_id": "T1495",
+    "technique_name": "Firmware Corruption",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1490": {
+    "technique_id": "T1490",
+    "technique_name": "Inhibit System Recovery",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1546.007": {
+    "technique_id": "T1546.007",
+    "technique_name": "Netsh Helper DLL",
+    "tactics": [
+      "Privilege Escalation",
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1566.003": {
+    "technique_id": "T1566.003",
+    "technique_name": "Spearphishing via Service",
+    "tactics": [
+      "Initial Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1090.001": {
+    "technique_id": "T1090.001",
+    "technique_name": "Internal Proxy",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1216": {
+    "technique_id": "T1216",
+    "technique_name": "System Script Proxy Execution",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1094": {
+    "technique_id": "T1094",
+    "technique_name": "Custom Command and Control Protocol",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1102.001": {
+    "technique_id": "T1102.001",
+    "technique_name": "Dead Drop Resolver",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1118": {
+    "technique_id": "T1118",
+    "technique_name": "InstallUtil",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1001.001": {
+    "technique_id": "T1001.001",
+    "technique_name": "Junk Data",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": true
+  },
+  "T1598.001": {
+    "technique_id": "T1598.001",
+    "technique_name": "Spearphishing Service",
+    "tactics": [
+      "Reconnaissance"
+    ],
+    "is_subtechnique": true
+  },
+  "T1043": {
+    "technique_id": "T1043",
+    "technique_name": "Commonly Used Port",
+    "tactics": [
+      "Command And Control"
+    ],
+    "is_subtechnique": false
+  },
+  "T1505.006": {
+    "technique_id": "T1505.006",
+    "technique_name": "vSphere Installation Bundles",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1552.007": {
+    "technique_id": "T1552.007",
+    "technique_name": "Container API",
+    "tactics": [
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1584.001": {
+    "technique_id": "T1584.001",
+    "technique_name": "Domains",
+    "tactics": [
+      "Resource Development"
+    ],
+    "is_subtechnique": true
+  },
+  "T1505.001": {
+    "technique_id": "T1505.001",
+    "technique_name": "SQL Stored Procedures",
+    "tactics": [
+      "Persistence"
+    ],
+    "is_subtechnique": true
+  },
+  "T1556.004": {
+    "technique_id": "T1556.004",
+    "technique_name": "Network Device Authentication",
+    "tactics": [
+      "Defense Impairment",
+      "Persistence",
+      "Credential Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1561.001": {
+    "technique_id": "T1561.001",
+    "technique_name": "Disk Content Wipe",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": true
+  },
+  "T1213.005": {
+    "technique_id": "T1213.005",
+    "technique_name": "Messaging Applications",
+    "tactics": [
+      "Collection"
+    ],
+    "is_subtechnique": true
+  },
+  "T1048.003": {
+    "technique_id": "T1048.003",
+    "technique_name": "Exfiltration Over Unencrypted Non-C2 Protocol",
+    "tactics": [
+      "Exfiltration"
+    ],
+    "is_subtechnique": true
+  },
+  "T1027.015": {
+    "technique_id": "T1027.015",
+    "technique_name": "Compression",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1574.004": {
+    "technique_id": "T1574.004",
+    "technique_name": "Dylib Hijacking",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": true
+  },
+  "T1601.002": {
+    "technique_id": "T1601.002",
+    "technique_name": "Downgrade System Image",
+    "tactics": [
+      "Defense Impairment"
+    ],
+    "is_subtechnique": true
+  },
+  "T1684.002": {
+    "technique_id": "T1684.002",
+    "technique_name": "Email Spoofing",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1078.003": {
+    "technique_id": "T1078.003",
+    "technique_name": "Local Accounts",
+    "tactics": [
+      "Stealth",
+      "Persistence",
+      "Privilege Escalation",
+      "Initial Access"
+    ],
+    "is_subtechnique": true
+  },
+  "T1669": {
+    "technique_id": "T1669",
+    "technique_name": "Wi-Fi Networks",
+    "tactics": [
+      "Initial Access"
+    ],
+    "is_subtechnique": false
+  },
+  "T1211": {
+    "technique_id": "T1211",
+    "technique_name": "Exploitation for Stealth",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": false
+  },
+  "T1127": {
+    "technique_id": "T1127",
+    "technique_name": "Trusted Developer Utilities Proxy Execution",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": false
+  },
+  "T1529": {
+    "technique_id": "T1529",
+    "technique_name": "System Shutdown/Reboot",
+    "tactics": [
+      "Impact"
+    ],
+    "is_subtechnique": false
+  },
+  "T1218.014": {
+    "technique_id": "T1218.014",
+    "technique_name": "MMC",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1564.010": {
+    "technique_id": "T1564.010",
+    "technique_name": "Process Argument Spoofing",
+    "tactics": [
+      "Stealth"
+    ],
+    "is_subtechnique": true
+  },
+  "T1077": {
+    "technique_id": "T1077",
+    "technique_name": "Windows Admin Shares",
+    "tactics": [
+      "Lateral Movement"
+    ],
+    "is_subtechnique": false
+  },
+  "T1574.012": {
+    "technique_id": "T1574.012",
+    "technique_name": "COR_PROFILER",
+    "tactics": [
+      "Stealth",
+      "Execution"
+    ],
+    "is_subtechnique": true
+  }
+}

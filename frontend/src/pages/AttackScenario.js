@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { motion } from "framer-motion";
-import { Zap, Loader2 } from "lucide-react";
+import { Zap, Loader2, ShieldAlert, Crosshair } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -32,13 +32,16 @@ export const AttackScenario = () => {
     }
   };
   
-  const getImpactColor = (impact) => {
-    switch (impact?.toLowerCase()) {
-      case 'low': return 'text-accent';
-      case 'medium': return 'text-secondary';
-      case 'high': return 'text-destructive';
-      case 'critical': return 'text-destructive animate-pulse';
-      default: return 'text-muted-foreground';
+  const getDetectionBadge = (likelihood) => {
+    switch (likelihood?.toLowerCase()) {
+      case 'low':
+        return 'border-destructive/40 bg-destructive/10 text-destructive';
+      case 'medium':
+        return 'border-secondary/40 bg-secondary/10 text-secondary';
+      case 'high':
+        return 'border-emerald-500/40 bg-emerald-500/10 text-emerald-400';
+      default:
+        return 'border-white/20 bg-black/40 text-muted-foreground';
     }
   };
   
@@ -122,9 +125,22 @@ export const AttackScenario = () => {
         {/* Results */}
         {result && (
           <div className="bg-black/40 backdrop-blur-md border border-white/10 rounded-sm p-6" data-testid="scenario-result">
-            <h2 className="text-2xl font-rajdhani font-bold uppercase mb-8 text-primary">
+            <h2 className="text-2xl font-rajdhani font-bold uppercase mb-4 text-primary">
               {result.title}
             </h2>
+
+            {/* Scenario Summary */}
+            {result.summary && (
+              <div className="mb-8 p-4 bg-primary/5 border border-primary/20 rounded-sm">
+                <div className="flex items-center gap-2 mb-2 text-primary font-rajdhani font-bold uppercase tracking-wider text-sm">
+                  <ShieldAlert className="w-4 h-4 text-primary" />
+                  Executive Threat Summary
+                </div>
+                <p className="text-sm font-mono text-muted-foreground leading-relaxed">
+                  {result.summary}
+                </p>
+              </div>
+            )}
             
             {/* Timeline */}
             <div className="relative">
@@ -145,8 +161,9 @@ export const AttackScenario = () => {
                       <div className="w-2 h-2 rounded-full bg-background" />
                     </div>
                     
-                    <div className="bg-black/60 border border-white/20 rounded-sm p-6">
-                      <div className="flex items-start justify-between mb-3">
+                    <div className="bg-black/60 border border-white/20 rounded-sm p-6 space-y-4">
+                      {/* Header Row: Stage Name & Time + Badges */}
+                      <div className="flex flex-wrap items-start justify-between gap-3">
                         <div>
                           <h3 className="text-lg font-rajdhani font-bold uppercase text-primary">
                             {event.stage}
@@ -155,13 +172,69 @@ export const AttackScenario = () => {
                             {event.time}
                           </p>
                         </div>
-                        <span className={`text-xs font-mono font-bold uppercase px-3 py-1 rounded-sm border ${getImpactColor(event.impact)} border-current`}>
-                          {event.impact} Impact
-                        </span>
+
+                        <div className="flex flex-wrap items-center gap-2">
+                          {/* MITRE Tactic Label */}
+                          {event.tactic && (
+                            <span className="text-xs font-mono font-bold uppercase px-2.5 py-1 rounded-sm bg-accent/10 border border-accent/30 text-accent">
+                              {event.tactic}
+                            </span>
+                          )}
+
+                          {/* Color-coded Detection Likelihood Badge */}
+                          {event.detection_likelihood && (
+                            <span className={`text-xs font-mono font-bold uppercase px-2.5 py-1 rounded-sm border ${getDetectionBadge(event.detection_likelihood)}`}>
+                              Detection: {event.detection_likelihood}
+                            </span>
+                          )}
+                        </div>
                       </div>
-                      <p className="text-sm font-mono text-foreground">
+
+                      {/* MITRE Technique Badges */}
+                      {event.techniques && event.techniques.length > 0 && (
+                        <div className="flex flex-wrap gap-2">
+                          {event.techniques.map((tech, tIdx) => (
+                            <span
+                              key={tIdx}
+                              className="text-xs font-mono px-2.5 py-1 rounded-sm bg-white/5 border border-white/10 text-zinc-200 flex items-center gap-1.5"
+                            >
+                              <Crosshair className="w-3 h-3 text-accent shrink-0" />
+                              <span className="font-bold text-accent">{tech.technique_id}</span>
+                              <span className="text-white/30">|</span>
+                              <span className="text-zinc-200 font-medium">{tech.technique_name}</span>
+                            </span>
+                          ))}
+                        </div>
+                      )}
+
+                      {/* Description */}
+                      <p className="text-sm font-mono text-foreground leading-relaxed">
                         {event.description}
                       </p>
+
+                      {/* Unified Section for Impact, Detection Hint & Mitigation */}
+                      {(event.impact || event.detection_hint || event.mitigation) && (
+                        <div className="pt-3 border-t border-white/10 space-y-2.5 text-xs font-mono">
+                          {event.impact && (
+                            <div className="flex items-start gap-2 bg-white/[0.02] p-2.5 rounded-sm border border-white/5">
+                              <span className="font-bold text-destructive uppercase tracking-wider shrink-0">Impact:</span>{" "}
+                              <span className="text-foreground/90 leading-relaxed">{event.impact}</span>
+                            </div>
+                          )}
+                          {event.detection_hint && (
+                            <div className="flex items-start gap-2 bg-white/[0.02] p-2.5 rounded-sm border border-white/5">
+                              <span className="font-bold text-secondary uppercase tracking-wider shrink-0">Detection Hint:</span>{" "}
+                              <span className="text-muted-foreground leading-relaxed">{event.detection_hint}</span>
+                            </div>
+                          )}
+                          {event.mitigation && (
+                            <div className="flex items-start gap-2 bg-white/[0.02] p-2.5 rounded-sm border border-white/5">
+                              <span className="font-bold text-accent uppercase tracking-wider shrink-0">Mitigation:</span>{" "}
+                              <span className="text-muted-foreground leading-relaxed">{event.mitigation}</span>
+                            </div>
+                          )}
+                        </div>
+                      )}
                     </div>
                   </motion.div>
                 ))}
